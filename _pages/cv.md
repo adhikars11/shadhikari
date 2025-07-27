@@ -5,8 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-Find the PDF version [here]({{ site.baseurl }}/cv_shisham.pdf).  
+Find the PDF version <a href="{{ site.baseurl }}/cv_shisham.pdf" target="_blank" rel="noopener noreferrer">here</a>.  
 Last Updated: 07/27/2025
 
-<iframe src="{{ site.baseurl }}/cv_shisham.pdf" width="120%" height="800px" style="border: none;"></iframe>
-
+<embed src="{{ site.baseurl }}/cv_shisham.pdf" width="500" height="375" type="application/pdf">
