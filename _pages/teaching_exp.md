@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: "Teaching Statement"
 collection: teaching
 type: "Undergraduate and Graduate Instruction"
 layout: single
