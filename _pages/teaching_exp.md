@@ -1,10 +1,8 @@
 ---
 title: "Teaching Statement"
 collection: teaching
-type: "Undergraduate and Graduate Instruction"
 layout: single
 permalink: /teaching/
-date: 2025-07-27
 location: "California & Oregon, USA"
 ---
 
