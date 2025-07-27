@@ -4,7 +4,6 @@ collection: teaching
 type: "Undergraduate and Graduate Instruction"
 layout: single
 permalink: /teaching/
-venue: "University of California, Davis & Reed College"
 date: 2025-07-27
 location: "California & Oregon, USA"
 ---
