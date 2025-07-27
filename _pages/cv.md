@@ -8,5 +8,5 @@ author_profile: true
 Find the PDF version [here]({{ site.baseurl }}/cv_shisham.pdf).  
 Last Updated: 07/27/2025
 
-<iframe src="{{ site.baseurl }}/cv_shisham.pdf" width="90%" height="800px" style="border: none;"></iframe>
+<iframe src="{{ site.baseurl }}/cv_shisham.pdf" width="100%" height="800px" style="border: none;"></iframe>
 
