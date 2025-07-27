@@ -12,8 +12,6 @@ I am passionate about teaching a broad range of topics in economics and data sci
 
 I believe in a holistic approach to economics education—rooted in strong fundamentals, real-world applications, and interdisciplinary tools. I have also taught and designed educational content as a Data Science Educator at Posit (formerly RStudio), and regularly lead workshops and informal lectures on personal investing and applied data analysis.
 
----
-
 Heading 1
 ======
 
