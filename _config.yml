@@ -25,18 +25,19 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Shisham Adhikari"
-  pronouns         : # example: "she/her"  
-  bio              : # "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "E-mail: shadhikari@ucdavis.edu"
   employer         : "University of California, Davis"
-  uri              : # URL
-  email            : "shadhikari@ucdavis.edu" 
+  linkedin         : "https://www.linkedin.com/in/adhikars/"
   github           : "https://github.com/adhikars11"
+  googlescholar    : "https://scholar.google.com/citations?user=GQoFZQ8AAAAJ&hl=en"
+  pronouns         : # example: "she/her"  
+  location         : # "United States"
+  uri              : # URL
+  email            : # "shadhikari@ucdavis.edu" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -61,7 +62,6 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "www.linkedin.com/in/adhikars"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
