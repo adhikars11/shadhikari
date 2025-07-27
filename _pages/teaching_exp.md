@@ -1,9 +1,9 @@
 ---
-title: "Teaching Experience"
+title: "Teaching"
 collection: teaching
 type: "Undergraduate and Graduate Instruction"
 layout: single
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/
 venue: "University of California, Davis & Reed College"
 date: 2025-07-27
 location: "California & Oregon, USA"
