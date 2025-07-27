@@ -50,7 +50,7 @@ I believe in data-driven policy making. Below are some of my most relevant polic
 ---
 
 ### PERIOD. (2019)  
-**Data and International Policy Analysis Intern **
+**Data and International Policy Analysis Intern**
 
 - Led data analytics and visualization for menstrual equity policy campaigns.
 - Collaborated with advocacy organizations to support state and federal legislative proposals.
