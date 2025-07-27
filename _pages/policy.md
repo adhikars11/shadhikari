@@ -5,53 +5,43 @@ permalink: /policy/
 author_profile: true
 ---
 
-## Policy
-
-I believe in data-driven policymaking that bridges rigorous research and real-world impact. Below are selected experiences where I applied economic analysis, data science, and communication skills to inform and engage with policy.
+I believe in data-driven policy making. Below are some of my most relevant policy experiences that bridge research, data science, and social impact.
 
 ---
 
-### Fund Internship – International Monetary Fund (IMF)  
-**Department:** Climate-Macro Department  
-**Role:** Economist Intern (Summer 2025)  
-- Developed macroeconomic time-series models to evaluate climate-related risks.  
-- Contributed to analysis informing climate policy across member countries.  
+### International Monetary Fund â€“ Climate-Macro Department (2025)
+**Climate Policy Economist Intern**  
+Worked on time series forecasting and empirical modeling of climate shocks and transition risks using global macroeconomic data. Developed tools to assess fiscal resilience under different climate scenarios.
 
 ---
 
-### CCST Presentation  
-**Venue:** California Council on Science and Technology (CCST)  
-- Presented research connecting climate modeling and macroeconomic projections to California policy leaders.  
+### California Council on Science and Technology (CCST) â€“ Climate Policy Presentation (2024)
+**Invited Presenter**  
+Presented my research on the macroeconomic consequences of climate transition, focusing on labor markets and sectoral frictions, to state policy stakeholders and scientists.
 
 ---
 
-### Climate Change and AI Summer School  
-**Organizers:** Mila Quebec & Climate Change AI  
-- Participated in discussions and workshops on aligning AI innovation with climate policy challenges.  
+### Summer School on Climate Change and AI (2024)
+**Participant**  
+Selected for a competitive international program connecting AI researchers and climate scientists. Explored policy applications of machine learning in climate risk assessment.
 
 ---
 
-### Public Policy and International Affairs (PPIA) Fellowship  
-**Institution:** Carnegie Mellon University, Heinz College  
-- Completed graduate-level coursework in statistics, economics, and policy analysis.  
-- Conducted applied policy research as part of the fellowship capstone.  
+### Public Policy and International Affairs (PPIA) Fellowship â€“ Carnegie Mellon Heinz College (2019)
+**Fellow**  
+Completed graduate-level training in quantitative public policy analysis, economics, and data science. Focused on policies related to urban inequality and social safety nets.
 
 ---
 
-### Policy & Data Intern – PERIOD.  
-**Focus:** Menstrual Equity Advocacy  
-- Built and analyzed datasets for tracking policy support and menstrual product accessibility across states.  
-- Created policy briefs to support lobbying efforts.  
+### PERIOD. (Policy & Data Intern, 2018â€“2019)
+Led data analysis and visualization for menstrual health access policy campaigns. Worked directly with state and national advocacy groups to support legislative proposals.
 
 ---
 
-### Debating for Democracy – Campus Representative  
-**Platform:** Project Pericles  
-- Engaged in youth civic engagement and led issue-based advocacy campaigns.  
+### Debating for Democracy (D4D) â€“ Campus Representative (2018)
+Designed and led policy advocacy campaigns on economic justice and education access. Participated in national policy proposal competitions judged by elected officials.
 
 ---
 
-### Davis Peace Project – Nepal  
-**Initiative:** Grassroots Public Health  
-- Designed and implemented a menstrual health initiative in rural Nepal.  
-- Submitted findings and policy recommendations to Nepal’s Ministry of Health.  
+### Davis Peace Project â€“ Nepal Fieldwork (2017)
+Designed and implemented a grassroots healthcare project in rural Nepal. Collected field data and shared findings with Nepalâ€™s Ministry of Health to inform rural health planning.
