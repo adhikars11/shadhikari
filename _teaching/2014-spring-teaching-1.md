@@ -12,7 +12,6 @@ I am passionate about teaching a broad range of topics in economics and data sci
 
 I believe in a holistic approach to economics education—rooted in strong fundamentals, real-world applications, and interdisciplinary tools. I’ve also taught and designed educational content as a Data Science Educator at Posit (formerly RStudio), and regularly lead workshops and informal lectures on personal investing and applied data analysis.
 
----
 
 ### University of California, Davis (2021–Present)
 
@@ -25,7 +24,6 @@ I believe in a holistic approach to economics education—rooted in strong fundame
 - *Econ 100B: Intermediate Microeconomics* — Spring 2022  
 - *Econ 001B: Principles of Macroeconomics* — Fall 2021  
 
----
 
 ### Reed College, Portland, OR (2017–2021)
 
