@@ -2,7 +2,7 @@
 title: "Teaching Experience"
 collection: teaching
 type: "Undergraduate and Graduate Instruction"
-permalink: /teaching/teaching-experience
+permalink: /teaching/2025-ucdavis
 venue: "University of California, Davis & Reed College"
 date: 2025-07-27
 location: "California & Oregon, USA"
