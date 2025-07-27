@@ -1,9 +1,8 @@
 ---
 title: "Teaching Statement"
-collection: teaching
 layout: single
 permalink: /teaching/
-location: "California & Oregon, USA"
+author_profile: true
 ---
 
 I am passionate about teaching a broad range of topics in economics and data science, including microeconomics, macroeconomics, econometrics, game theory, forecasting, and applied statistical computing. My teaching philosophy centers on breaking down complex concepts into clear, accessible ideas and fostering an environment where intellectual curiosity and critical thinking thrive. I prioritize helping students not only understand theory but also apply it in real-world contexts.
