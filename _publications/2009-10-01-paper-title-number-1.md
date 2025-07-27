@@ -1,14 +1,35 @@
 ---
-title: "Paper Title Number 1"
+title: "How Much Work Experience Do You Need to Get Your First Job? The Macroeconomic Implications of Bias Against Labor Market Entrants"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2025-04-01-entrant-bias
+excerpt: 'This paper develops a search-theoretic model to quantify the macroeconomic costs of firm bias against inexperienced workers and evaluates targeted hiring policies to address it.'
+date: 2025-04-01
+venue: 'Review of Economic Dynamics (forthcoming)'
+paperurl: '{{ site.baseurl }}/files/entrant_bias_paper.pdf'
+slidesurl: '{{ site.baseurl }}/files/entrant_bias_slides.pdf'
+citation: 'Adhikari, S., Geromichalos, A., Gürsoy, A., & Kospentaris, I. (2025). "How Much Work Experience Do You Need to Get Your First Job?" <i>Review of Economic Dynamics</i> (forthcoming).'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+**Authors:**  
+Shisham Adhikari (UC Davis)  
+Athanasios Geromichalos (UC Davis)  
+Ateş Gürsoy (UC Davis)  
+Ioannis Kospentaris (Athens University of Economics and Business)  
+
+**First Version:** October 2023  
+**This Version:** April 2025  
+
+---
+
+**Abstract**  
+We study the macroeconomic consequences of firms’ reluctance to hire inexperienced workers. Using a Diamond-Mortensen-Pissarides (DMP) search-and-matching model, we show that this bias traps entrant workers in unemployment, where they suffer permanent productivity losses (“scarring”). Workers’ employment histories endogenously determine their productivity types, and firms engage in ranked matching where entrants are consistently deprioritized.
+
+This creates a market failure: hiring entrants generates positive spillovers by reducing the future prevalence of low-productivity workers, yet firms do not internalize this benefit. We calibrate the model and evaluate several policy interventions designed to mitigate this inefficiency, including unbiased matching, training subsidies, and internship programs. Each improves welfare, but only targeted hiring subsidies that actively reverse firm bias produce large gains and closely approximate the constrained efficient allocation.
+
+---
+
+**Key Findings**
+- Firm bias against inexperienced workers leads to inefficient unemployment and persistent productivity losses.
+- Targeted hiring subsidies that elevate entrants in firm rankings yield the largest welfare gains among all interventions.
+- When sufficiently strong, these subsidies bring the economy close to the constrained efficient outcome.
