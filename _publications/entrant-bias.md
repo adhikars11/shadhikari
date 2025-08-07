@@ -7,7 +7,7 @@ excerpt: 'This paper develops a search-theoretic model to quantify the macroecon
 date: 2025-04-01
 venue: 'Review of Economic Dynamics (forthcoming)'
 paperurl: 'https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf'
-slidesurl: 'https://adhikars11.github.io/shadhikari/files/slides1.pdf'
+slidesurl: 'https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf'
 citation: 'Adhikari, S., Geromichalos, A., Gürsoy, A., & Kospentaris, I. (2025). "How Much Work Experience Do You Need to Get Your First Job?" <i>Review of Economic Dynamics</i> (forthcoming).'
 ---
 
