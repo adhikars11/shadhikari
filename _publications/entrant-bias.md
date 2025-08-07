@@ -6,8 +6,8 @@ permalink: /publication/entrant-bias
 excerpt: 'This paper develops a search-theoretic model to quantify the macroeconomic costs of firm bias against inexperienced workers and evaluates targeted hiring policies to address it.'
 date: 2025-04-01
 venue: 'Review of Economic Dynamics (forthcoming)'
-paperurl: '{{ site.baseurl }}/files/entrant_bias_paper.pdf'
-slidesurl: '{{ site.baseurl }}/files/entrant_bias_slides.pdf'
+paperurl: {{ site.baseurl }}/files/entrant_bias_paper.pdf
+slidesurl: {{ site.baseurl }}/files/entrant_bias_slides.pdf
 citation: 'Adhikari, S., Geromichalos, A., Gürsoy, A., & Kospentaris, I. (2025). "How Much Work Experience Do You Need to Get Your First Job?" <i>Review of Economic Dynamics</i> (forthcoming).'
 ---
 
