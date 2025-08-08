@@ -8,7 +8,7 @@ date: 2025-04-01
 venue: 'Review of Economic Dynamics (forthcoming)'
 paperurl: 'https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf'
 slidesurl: 'https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf'
-citation: 'Adhikari, S., Geromichalos, A., Gürsoy, A., & Kospentaris, I. (2025). "How Much Work Experience Do You Need to Get Your First Job?" <i>Review of Economic Dynamics</i> (forthcoming).'
+citation: 'Adhikari, S., Geromichalos, A., Gürsoy, A., & Kospentaris, I. (2025). How Much Work Experience Do You Need to Get Your First Job? Review of Economic Dynamics, 58, 101301. https://doi.org/10.1016/j.red.2025.101301'
 ---
 
 **Authors:**  
