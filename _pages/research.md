@@ -1,7 +1,7 @@
 ---
-title: "Policy"
+title: "Research"
 layout: single
-permalink: /policy/
+permalink: /research/
 author_profile: true
 ---
 
