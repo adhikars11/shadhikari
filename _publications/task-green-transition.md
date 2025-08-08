@@ -9,6 +9,10 @@ venue: "Working paper"
 paperurl: "https://adhikars11.github.io/shadhikari/files/task_green_transition_paper.pdf"
 slidesurl: "https://adhikars11.github.io/shadhikari/files/task_green_transition_slides.pdf"
 citation: "Adhikari, S. (2025). 'Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications.' Working paper."
+key_findings:
+  - **Design:** Subsidies are most effective when targeted at tasks where green inputs are close in productivity to traditional ones - maximizing reallocation with minimal fiscal cost.
+  - **Trade-offs:** In a U.S. calibration, welfare gains arise only when the environmental externality parameter exceeds 1.2 (vs. a public good benchmark of 0.4), corresponding to a 4.3% consumption-equivalent gain threshold.
+  - **Financing:** Lump-sum taxes impose the lowest welfare cost, followed by capital-income taxes; labor-income taxes are most distortionary - reversing conventional fiscal policy rankings when task-level externalities are accounted for.
 ---
 
 **Author:**  

@@ -9,6 +9,10 @@ venue: "Review of Economic Dynamics, Volume 58, 2025, Article 101301"
 paperurl: "https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf"
 slidesurl: "https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf"
 citation: "Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I. (2025). How Much Work Experience Do You Need to Get Your First Job? Review of Economic Dynamics, 58, 101301. https://doi.org/10.1016/j.red.2025.101301"
+key_findings:
+  - Firm bias against inexperienced workers leads to inefficient unemployment and persistent productivity losses.
+  - Targeted hiring subsidies that elevate entrants in firm rankings yield the largest welfare gains among all interventions.
+  - When sufficiently strong, these subsidies bring the economy close to the constrained efficient outcome.
 ---
 
 **Authors:**  

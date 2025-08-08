@@ -9,6 +9,10 @@ venue: "Working paper"
 paperurl: "https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf"
 slidesurl: "https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf"
 citation: "Adhikari, S. (2025). 'Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications.' Working paper."
+key_findings:
+  - *Policy design matters:* One-sided subsidies (to firms or workers alone) can achieve green employment targets, but at the cost of higher unemployment, greater fiscal burden, and lower aggregate welfare.
+  - *Dual-targeted subsidies are optimal:* Coordinated support for both workers and firms reduces unemployment by up to 18%, lowers fiscal costs by up to 24%, and delivers higher overall welfare.
+  - *Productivity-welfare trade-off:* For the green transition to improve net welfare, the environmental externality must be equivalent to at least a 0.6% boost in aggregate productivity.
 ---
 
 **Author:**  
