@@ -1,6 +1,6 @@
 ---
 title: "How Much Work Experience Do You Need to Get Your First Job? The Macroeconomic Implications of Bias Against Labor Market Entrants"
-collection: publications
+collection: publication
 category: manuscripts
 permalink: /publication/entrant-bias
 excerpt: 'This paper develops a search-theoretic model to quantify the macroeconomic costs of firm bias against inexperienced workers and evaluates targeted hiring policies to address it.'

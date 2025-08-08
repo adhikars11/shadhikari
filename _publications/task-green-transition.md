@@ -1,7 +1,7 @@
 ---
 title: "Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications"
 collection: publications
-category: manuscripts
+category: working-paper
 permalink: /publication/task-green-transition
 excerpt: 'This paper develops a task-based macroeconomic model to evaluate targeted green-input subsidies, offering new insights into fiscal design for the green transition.'
 date: 2025-06-01
