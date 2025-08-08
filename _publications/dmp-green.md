@@ -8,9 +8,8 @@ date: 2025-04-01
 venue: 'Review of Economic Dynamics, Volume 58, 2025, Article 101301'
 paperurl: 'https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf'
 slidesurl: 'https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf'
-citation: 'Adhikari, S., Geromichalos, A., GÃ¼rsoy, A., & Kospentaris, I. (2025). How Much Work Experience Do You Need to Get Your First Job? Review of Economic Dynamics, 58, 101301. https://doi.org/10.1016/j.red.2025.101301'
+citation: 'Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I. (2025). How Much Work Experience Do You Need to Get Your First Job? Review of Economic Dynamics, 58, 101301. https://doi.org/10.1016/j.red.2025.101301'
 ---
-
 
 **Author:**  
 Shisham Adhikari (UC Davis)  
@@ -25,7 +24,7 @@ Shisham Adhikari (UC Davis)
 
 - *Dual-targeted subsidies are optimal:* Coordinated support for both workers and firms reduces unemployment by up to 18%, lowers fiscal costs by up to 24%, and delivers higher overall welfare.
 
-- *Productivity-welfare trade-off:* For the green transition to improve net welfare, the environmental externality must be equivalent to at least a 0.6% boost in aggregate productivity.
+- *Productivity–welfare trade-off:* For the green transition to improve net welfare, the environmental externality must be equivalent to at least a 0.6% boost in aggregate productivity.
 
 ---
 

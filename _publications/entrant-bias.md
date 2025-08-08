@@ -30,8 +30,6 @@ Ioannis Kospentaris (Athens University of Economics and Business)
 ---
 
 **Abstract**  
-We study the macroeconomic consequences of firms’ reluctance to hire inexperienced workers. Using a Diamond-Mortensen-Pissarides (DMP) search-and-matching model, we show that this bias traps entrant workers in unemployment, where they suffer permanent productivity losses (“scarring�?). Workers’ employment histories endogenously determine their productivity types, and firms engage in ranked matching where entrants are consistently deprioritized.
+We study the macroeconomic consequences of firms’ reluctance to hire inexperienced workers. Using a Diamond-Mortensen-Pissarides (DMP) search-and-matching model, we show that this bias traps entrant workers in unemployment, where they suffer permanent productivity losses (“scarring”). Workers’ employment histories endogenously determine their productivity types, and firms engage in ranked matching where entrants are consistently deprioritized.
 
 This creates a market failure: hiring entrants generates positive spillovers by reducing the future prevalence of low-productivity workers, yet firms do not internalize this benefit. We calibrate the model and evaluate several policy interventions designed to mitigate this inefficiency, including unbiased matching, training subsidies, and internship programs. Each improves welfare, but only targeted hiring subsidies that actively reverse firm bias produce large gains and closely approximate the constrained efficient allocation.
-
-
