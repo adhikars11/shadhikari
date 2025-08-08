@@ -1,14 +1,14 @@
 ---
-title: "Resolving Coordination Frictions in Green Labor Transitions: Minimizing Unemployment, Costs, and Welfare Distortions"
+title: "How Much Work Experience Do You Need to Get Your First Job? The Macroeconomic Implications of Bias Against Labor Market Entrants"
 collection: publications
-category: working-paper
-permalink: /publication/task-green-transition
-excerpt: 'This paper develops an extended Diamond–Mortensen–Pissarides model to quantify the efficiency gains of coordinated firm-worker green transition subsidies.'
-date: 2025-06-01
-venue: 'Working paper'
-paperurl: 'https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf'
-slidesurl: 'https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf'
-citation: 'Adhikari, S. (2025). "Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications." Working paper.'
+category: publication
+permalink: /publication/entrant-bias
+excerpt: 'This paper develops a search-theoretic model to quantify the macroeconomic costs of firm bias against inexperienced workers and evaluates targeted hiring policies to address it.'
+date: 2025-04-01
+venue: 'Review of Economic Dynamics, Volume 58, 2025, Article 101301'
+paperurl: 'https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf'
+slidesurl: 'https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf'
+citation: 'Adhikari, S., Geromichalos, A., GÃ¼rsoy, A., & Kospentaris, I. (2025). How Much Work Experience Do You Need to Get Your First Job? Review of Economic Dynamics, 58, 101301. https://doi.org/10.1016/j.red.2025.101301'
 ---
 
 
