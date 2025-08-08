@@ -5,67 +5,48 @@ permalink: /research/
 author_profile: true
 ---
 
-I believe in data-driven policy making. Below are some of my most relevant policy experiences that bridge research, data science, and social impact.
+I believe in data-driven policy making. Below are my main research contributions and policy experiences that bridge theory, data science, and impact.
 
 ---
 
-### International Monetary Fund (IMF) (2025)  
-**Climate Policy Economist Intern**
+## Academic Publications and Working Papers
 
-- Estimated the macroeconomic costs of climate shocks using geospatial climate data and global time series models.
-- Presented policy-relevant findings to IMF staff, contributing to fiscal policy dialogues around climate risk.
-
----
-
-### California Council on Science and Technology (CCST) (2025)  
-**Science Translators Showcase Presenter**
-
-- Shared research from my dissertation on optimal transition policy design with California legislative staff during CCSTs Science & Technology Week at the State Capitol.
-- Completed targeted training in translating complex research into actionable, policy-relevant insights.
-
----
-
-### Summer School on Climate Change and AI (2024)  
-**Selected Participant**
-
-- Joined a global cohort of researchers exploring the interface of machine learning and climate change.
-- Investigated applications of AI in climate risk assessment and resilience planning.
+### How Much Work Experience Do You Need to Get Your First Job?  
+**Review of Economic Dynamics, Volume 58, 2025, Article 101301**  
+Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.  
+[Paper](https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf)  
+<details><summary><strong>Key Findings</strong></summary>
+<ul>
+  <li>Firm bias against inexperienced workers leads to inefficient unemployment and persistent productivity losses.</li>
+  <li>Targeted hiring subsidies that elevate entrants in firm rankings yield the largest welfare gains among all interventions.</li>
+  <li>When sufficiently strong, these subsidies bring the economy close to the constrained efficient outcome.</li>
+</ul>
+</details>
 
 ---
 
-### Fiscal Challenge Competition (2020) 
-**Team Lead**
-
-- Developed a comprehensive fiscal plan to reduce the U.S. national debt. 
-- Presented policy proposals a national forum simulating real-world congressional budget deliberation.
-
----
-
-### Public Policy and International Affairs (PPIA) Fellowship,  Carnegie Mellon University (2019)  
-**Data Analytics Fellow**
-
-- Received graduate-level training in quantitative policy analysis, economics, and data science.
-- Focused on urban spatial inequality and its policy solutions.
+### Resolving Coordination Frictions in Green Labor Transitions: Minimizing Unemployment, Costs, and Welfare Distortions  
+**Working Paper, 2025**  
+Adhikari, S.  
+[Paper](https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf)  
+<details><summary><strong>Key Findings</strong></summary>
+<ul>
+  <li><strong>Policy design matters:</strong> One-sided subsidies (to firms or workers alone) can meet green targets, but with higher unemployment and fiscal costs.</li>
+  <li><strong>Dual-targeted subsidies are optimal:</strong> Coordinated support for firms and workers reduces unemployment by up to 18% and fiscal costs by up to 24%.</li>
+  <li><strong>Welfare threshold:</strong> Net gains arise only if the environmental externality equals at least a 0.6% productivity boost.</li>
+</ul>
+</details>
 
 ---
 
-### PERIOD. (2019)  
-**Data and International Policy Analysis Intern**
-
-- Led data analytics and visualization for menstrual equity policy campaigns.
-- Collaborated with advocacy organizations to support state and federal legislative proposals.
-
----
-
-### Debating for Democracy (D4D) (2018)
-**Campus Representative**
-
-- Designed and led policy advocacy campaigns on economic justice and education access. 
-- Participated in national policy proposal competitions judged by elected officials.
-
----
-
-### Davis Peace Project Nepal Fieldwork (2017)  
-
-- Designed and implemented a community health initiative in rural Nepal.
-- Collected field data and presented policy recommendations to Nepals Ministry of Health for rural health planning.
+### Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications  
+**Working Paper, 2025**  
+Adhikari, S.  
+[Paper](https://adhikars11.github.io/shadhikari/files/task_green_transition_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/task_green_transition_slides.pdf)  
+<details><summary><strong>Key Findings</strong></summary>
+<ul>
+  <li><strong>Design:</strong> Subsidies are most effective when targeted at tasks where green inputs closely match traditional productivity.</li>
+  <li><strong>Trade-offs:</strong> Welfare gains arise only when the environmental externality exceeds 1.2, with a 4.3% consumption-equivalent threshold.</li>
+  <li><strong>Financing:</strong> Lump-sum taxes impose the lowest welfare cost, followed by capital-income taxes; labor taxes are most distortionary.</li>
+</ul>
+</details>
