@@ -3,14 +3,13 @@ title: "Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary 
 collection: publications
 category: manuscripts
 permalink: /publication/task-green-transition
-excerpt: 'This paper develops a task-based macroeconomic model to evaluate targeted green-input subsidies, offering new insights into fiscal design for the green transition.'
+excerpt: "This paper develops a task-based macroeconomic model to evaluate targeted green-input subsidies, offering new insights into fiscal design for the green transition."
 date: 2025-06-01
-venue: 'Working paper'
-paperurl: 'https://adhikars11.github.io/shadhikari/files/task_green_transition_paper.pdf'
-slidesurl: 'https://adhikars11.github.io/shadhikari/files/task_green_transition_slides.pdf'
-citation: 'Adhikari, S. (2025). "Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications." Working paper.'
+venue: "Working paper"
+paperurl: "https://adhikars11.github.io/shadhikari/files/task_green_transition_paper.pdf"
+slidesurl: "https://adhikars11.github.io/shadhikari/files/task_green_transition_slides.pdf"
+citation: "Adhikari, S. (2025). \"Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications.\" Working paper."
 ---
-
 
 **Authors:**  
 Shisham Adhikari (UC Davis)  
