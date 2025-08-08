@@ -1,15 +1,11 @@
 ---
-title: "Research"
+title: ""
 layout: single
 permalink: /research/
 author_profile: true
 ---
 
-I believe in data-driven policy making. Below are my main research contributions and policy experiences that bridge theory, data science, and impact.
-
----
-
-## Academic Publications and Working Papers
+## Publications
 
 ### How Much Work Experience Do You Need to Get Your First Job?  
 **Review of Economic Dynamics, Volume 58, 2025, Article 101301**  
@@ -24,6 +20,8 @@ Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.
 </details>
 
 ---
+
+## Working Papers
 
 ### Resolving Coordination Frictions in Green Labor Transitions: Minimizing Unemployment, Costs, and Welfare Distortions  
 **Working Paper, 2025**  
