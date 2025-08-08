@@ -5,7 +5,6 @@ category: working-paper
 permalink: /publication/task-green-transition
 excerpt: 'This paper develops an extended Diamond–Mortensen–Pissarides model to quantify the efficiency gains of coordinated firm-worker green transition subsidies.'
 date: 2025-06-01
-venue: 'Working paper'
 paperurl: 'https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf'
 slidesurl: 'https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf'
 citation: 'Adhikari, S. (2025). "Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications." Working paper.'
