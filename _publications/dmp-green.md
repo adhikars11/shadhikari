@@ -1,7 +1,7 @@
 ---
 title: "Resolving Coordination Frictions in Green Labor Transitions: Minimizing Unemployment, Costs, and Welfare Distortions"
 collection: publications
-category: publication
+category: working-paper
 permalink: /publication/dmp-green
 excerpt: "This paper develops an extended Diamond-Mortensen-Pissarides model to quantify the efficiency gains of coordinated firm-worker green transition subsidies."
 date: 2025-06-01
