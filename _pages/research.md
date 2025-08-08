@@ -8,7 +8,7 @@ author_profile: true
 ## Publications
 
 ### How Much Work Experience Do You Need to Get Your First Job?  
-**Review of Economic Dynamics, Volume 58, 2025, Article 101301**  
+*Review of Economic Dynamics, Volume 58, 2025, Article 101301* 
 Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.  
 [Paper](https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf)  
 <details><summary><strong>Key Findings</strong></summary>
@@ -19,12 +19,11 @@ Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.
 </ul>
 </details>
 
----
 
 ## Working Papers
 
 ### Resolving Coordination Frictions in Green Labor Transitions: Minimizing Unemployment, Costs, and Welfare Distortions  
-**Working Paper, 2025**  
+*Working Paper, 2025* 
 Adhikari, S.  
 [Paper](https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf)  
 <details><summary><strong>Key Findings</strong></summary>
@@ -38,7 +37,7 @@ Adhikari, S.
 ---
 
 ### Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications  
-**Working Paper, 2025**  
+*Working Paper, 2025* 
 Adhikari, S.  
 [Paper](https://adhikars11.github.io/shadhikari/files/task_green_transition_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/task_green_transition_slides.pdf)  
 <details><summary><strong>Key Findings</strong></summary>
