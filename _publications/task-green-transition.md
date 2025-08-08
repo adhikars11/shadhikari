@@ -25,7 +25,7 @@ Shisham Adhikari (UC Davis)
 ---
 
 **Abstract**  
-This paper develops a task-based general-equilibrium model to evaluate targeted green-input subsidies, offering new insights into fiscal policy for the green transition. Production is represented as a continuum of tasks ranked by “greenness,” moving beyond the conventional “green vs. dirty” sectoral split. By capturing task-level heterogeneity, the model shows that competitive markets allocate too few tasks to green inputs relative to a planner who internalizes environmental externalities, justifying corrective subsidies.
+This paper develops a task-based general-equilibrium model to evaluate targeted green-input subsidies, offering new insights into fiscal policy for the green transition. Production is represented as a continuum of tasks ranked by "greenness," moving beyond the conventional "green vs. dirty" sectoral split. By capturing task-level heterogeneity, the model shows that competitive markets allocate too few tasks to green inputs relative to a planner who internalizes environmental externalities, justifying corrective subsidies.
 
 The framework addresses three policy-relevant questions: (i) Design — how should subsidies vary across tasks to maximize reallocation toward green methods? (ii) Trade-offs — what productivity cost, if any, accompanies environmental gains? (iii) Financing — which tax base funds subsidies with the least distortion?
 
