@@ -9,8 +9,8 @@ author_profile: true
 
 ### How Much Work Experience Do You Need to Get Your First Job?  
 *Review of Economic Dynamics, Volume 58, 2025, Article 101301*<br>
-Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.<br>  
-[Paper](https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf)<br>  
+Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I. 
+[Paper](https://adhikars11.github.io/shadhikari/files/entrant_bias_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/entrant_bias_slides.pdf) 
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
   <li>Firm bias against inexperienced workers leads to inefficient unemployment and persistent productivity losses.</li>
@@ -24,8 +24,8 @@ Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.<br>
 
 ### Resolving Coordination Frictions in Green Labor Transitions: Minimizing Unemployment, Costs, and Welfare Distortions  
 *Working Paper, 2025*<br> 
-Adhikari, S.<br>  
-[Paper](https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf)<br>  
+Adhikari, S. 
+[Paper](https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf)
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
   <li><strong>Policy design matters:</strong> One-sided subsidies (to firms or workers alone) can meet green targets, but with higher unemployment and fiscal costs.</li>
@@ -38,8 +38,8 @@ Adhikari, S.<br>
 
 ### Bridging the Manufacturing Gap: Endogenous Labor Supply, Search Frictions, and Targeted Subsidies  
 *Working Paper, 2025*<br>  
-Adhikari, S., and Guo, S.<br> 
-[Paper](#) | [Slides](#)<br>  
+Adhikari, S., and Guo, S. 
+[Paper](#) | [Slides](#) 
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
   <li><strong>Mechanism:</strong> Search frictions and endogenous skill choice create a coordination problem that depresses manufacturing labor supply below the efficient level.</li>
@@ -52,8 +52,8 @@ Adhikari, S., and Guo, S.<br>
 
 ### Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications  
 *Working Paper, 2025*<br> 
-Adhikari, S. <br>  
-[Paper](https://adhikars11.github.io/shadhikari/files/task_green_transition_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/task_green_transition_slides.pdf) <br>  
+Adhikari, S.  
+[Paper](https://adhikars11.github.io/shadhikari/files/task_green_transition_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/task_green_transition_slides.pdf)  
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
   <li><strong>Design:</strong> Subsidies are most effective when targeted at tasks where green inputs closely match traditional productivity.</li>
