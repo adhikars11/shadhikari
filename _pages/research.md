@@ -36,6 +36,20 @@ Adhikari, S.
 
 ---
 
+### Bridging the Manufacturing Gap: Endogenous Labor Supply, Search Frictions, and Targeted Subsidies  
+*Working Paper, 2025*  
+Adhikari, S., and Guo, S. 
+[Paper](#) | [Slides](#)  
+<details><summary><strong>Key Findings</strong></summary>
+<ul>
+  <li><strong>Mechanism:</strong> Search frictions and endogenous skill choice create a coordination problem that depresses manufacturing labor supply below the efficient level.</li>
+  <li><strong>Impact:</strong> Correcting the distortion raises manufacturing’s share of the labor force by up to 3%, with the required subsidy equivalent to roughly 33% of the manufacturing wage.</li>
+  <li><strong>Budget:</strong> The policy’s fiscal cost is modest relative to sectoral wage bills, making it feasible for emerging‐economy governments.</li>
+</ul>
+</details>
+
+---
+
 ### Task-Level Fiscal Policy for the Green Transition: Moving Beyond Binary Classifications  
 *Working Paper, 2025* 
 Adhikari, S.  
