@@ -24,7 +24,7 @@ I am passionate about making economics and data science accessible through an in
 
 ### Reed College, Portland, OR (2017-2021)
 
-**Teaching Assistant, Grader, Tutor, and Student Teaching Consultant (STC)**
+**Teaching Assistant, Grader, Tutor, and Teaching Consultant**
 
 *Economics Courses*
 - *Econ 201: Introduction to Economics* - Fall 2018  
