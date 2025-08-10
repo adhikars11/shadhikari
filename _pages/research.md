@@ -37,7 +37,7 @@ Adhikari, S.
 ---
 
 ### Bridging the Manufacturing Gap: Endogenous Labor Supply, Search Frictions, and Targeted Subsidies  
-*Working Paper, 2025*<br>  
+*Working Paper, 2025*.   
 Adhikari, S., and Guo, S.   
 [Paper](#) | [Slides](#) 
 <details><summary><strong>Key Findings</strong></summary>
