@@ -11,7 +11,7 @@ I believe in data-driven policy making. Below are some of my most relevant polic
 
 ### International Monetary Fund (IMF) (2025)
 <details>
-<summary><small><strong>Climate Policy Economist Intern</strong></small></summary>
+<summary><medium><strong>Climate Policy Economist Intern</strong></medium></summary>
 <ul>
   <li>Estimated the macroeconomic costs of climate shocks using geospatial climate data and global time series models.</li>
   <li>Presented policy-relevant findings to IMF staff, contributing to fiscal policy dialogues around climate risk.</li>
