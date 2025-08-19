@@ -38,8 +38,8 @@ Adhikari, S.
 
 ### Projecting Macroeconomic Impacts of Climate Shocks from Billions of Geospatial Observations: A Case for Adaptation  
 *Working Paper, 2025*.   
-Adhikari, S., Bellon, M. (Economist at International Monetary Fund), and Massetti, E. (Senior Economist at International Monetary Fund) 
-Paper (coming soon) | Slides (coming soon)
+Adhikari, S., Bellon, M. (Economist at International Monetary Fund), and Massetti, E. (Senior Economist at International Monetary Fund)   
+Paper (coming soon) | Slides (coming soon)   
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
   Coming soon!
