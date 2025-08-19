@@ -38,7 +38,7 @@ Adhikari, S.
 
 ### Bridging the Manufacturing Gap: Endogenous Labor Supply, Search Frictions, and Targeted Subsidies  
 *Working Paper, 2025*.   
-Adhikari, S., and Guo, S. (Senior economist at IMF)   
+Adhikari, S., and Guo, S. (Senior economist at International Monetary Fund (IMF))   
 [Paper](#) | [Slides](#) 
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
