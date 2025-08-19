@@ -20,7 +20,7 @@ I believe in data-driven policy making. Below are some of my most relevant polic
 
 ### California Council on Science and Technology (CCST) (2025)
 <details>
-<summary><strong>Science Translators Showcase Presenter</strong></summary>
+<summary>Science Translators Showcase Presenter</summary>
 <ul>
   <li>Shared research from my dissertation on optimal transition policy design with California legislative staff during CCST’s Science & Technology Week at the State Capitol.</li>
   <li>Completed targeted training in translating complex research into actionable, policy-relevant insights.</li>
