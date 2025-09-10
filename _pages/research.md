@@ -47,12 +47,6 @@ A large empirical literature has linked weather shocks to GDP to estimate future
 </p>
 </details>
 
-<details><summary><strong>Key Findings</strong></summary>
-<ul>
-  Coming soon!
-</ul>
-</details>
-
 
 ---
 
