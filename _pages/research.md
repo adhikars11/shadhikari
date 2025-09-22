@@ -38,7 +38,7 @@ Adhikari, S.
 
 ### Projecting Macroeconomic Cost of Climate Change: A Case for Adaptation  
 *Working Paper, 2025*  
-Adhikari, S. (UC Davis), Bellon, M. (IMF), Massetti, E. (IMF), Waidelich, P. (IMF), Batibeniz, F. (ETH Zürich), and Seneviratne, S. (ETH Zürich)    
+Adhikari, S. (UC Davis), Batibeniz, F. (ETH Zürich), Bellon, M. (IMF), Massetti, E. (IMF), Seneviratne, S. (ETH Zürich), and Waidelich, P. (ETH Zürich) 
 Paper (coming soon) | Slides (coming soon)   
 
 <details><summary><strong>Abstract</strong></summary>
