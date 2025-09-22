@@ -5,7 +5,7 @@ permalink: /policy/
 author_profile: true
 ---
 
-I believe in data-driven policy making. Below are some of my most relevant policy experiences that bridge research, data science, and social impact.
+As a Public Policy and International Affairs (PPIA) Data Analytics Scholar at Carnegie Mellon University, I learned to connect rigorous empirical methods with practical policy insights—a principle that continues to guide my work. Below are some of my most relevant policy experiences that bridge research, data science, and social impact.
 
 ---
 
