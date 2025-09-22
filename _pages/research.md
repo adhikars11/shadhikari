@@ -37,8 +37,8 @@ Adhikari, S.
 ---
 
 ### Projecting Macroeconomic Cost of Climate Change: A Case for Adaptation  
-*Working Paper, 2025*.   
-Adhikari, S., Bellon, M. (Economist at International Monetary Fund), and Massetti, E. (Senior Economist at International Monetary Fund)   
+*Working Paper, 2025*  
+Adhikari, S. (UC Davis), Bellon, M. (IMF), Massetti, E. (IMF), Waidelich, P. (IMF), Batibeniz, F. (ETH Zürich), and Seneviratne, S. (ETH Zürich)    
 Paper (coming soon) | Slides (coming soon)   
 
 <details><summary><strong>Abstract</strong></summary>
