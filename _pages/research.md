@@ -51,8 +51,8 @@ A large empirical literature has linked weather shocks to GDP to estimate future
 ---
 
 ### Bridging the Manufacturing Gap: Endogenous Labor Supply, Search Frictions, and Targeted Subsidies  
-*Working Paper, 2025*.   
-Adhikari, S., and Guo, S. (Senior economist at International Monetary Fund (IMF))   
+*Working Paper, 2025*  
+Adhikari, S. (UC Davis), and Guo, S. (IMF)  
 [Paper](#) | [Slides](#) 
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
