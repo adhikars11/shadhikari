@@ -29,7 +29,7 @@ Adhikari, S.
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
   <li><strong>Policy design matters:</strong> One-sided subsidies (to firms or workers alone) can meet green targets, but with higher unemployment and fiscal costs.</li>
-  <li><strong>Dual-targeted subsidies are optimal:</strong> Coordinated support for firms and workers reduces unemployment by up to 18% and fiscal costs by up to 24%.</li>
+  <li><strong>Dual-targeted subsidies are optimal:</strong> Coordinated support for firms and workers reduces unemployment by up to 18% and fiscal costs by up to 31%.</li>
   <li><strong>Welfare threshold:</strong> Net gains arise only if the environmental externality equals at least a 0.6% productivity boost.</li>
 </ul>
 </details>
