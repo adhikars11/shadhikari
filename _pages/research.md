@@ -50,17 +50,18 @@ A large empirical literature has linked weather shocks to GDP to estimate future
 
 ---
 
-### Bridging the Manufacturing Gap: Endogenous Labor Supply, Search Frictions, and Targeted Subsidies  
+### Search Frictions and Industrial Share  
 *Working Paper, 2025*  
 Adhikari, S. (UC Davis), and Guo, S. (IMF)  
-[Paper](#) | [Slides](#) 
+[Paper](#) | [Slides](#)  
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
-  <li><strong>Mechanism:</strong> Search frictions and endogenous skill choice create a coordination problem that depresses manufacturing labor supply below the efficient level.</li>
-  <li><strong>Impact:</strong> Correcting the distortion raises manufacturing’s share of the labor force by up to 3%, with the required subsidy equivalent to roughly 33% of the manufacturing wage.</li>
-  <li><strong>Budget:</strong> The policy’s fiscal cost is modest relative to sectoral wage bills, making it feasible for emerging‐economy governments.</li>
+  <li><strong>Mechanism:</strong> Capital-intensive manufacturing faces two inefficiencies: (i) a hold-up problem that discourages firm investment, and (ii) a search externality where workers’ entry raises vacancy creation but is not internalized.</li>
+  <li><strong>Impact:</strong> The decentralized equilibrium underinvests in capital and employs too few manufacturing workers. The social planner’s allocation delivers higher manufacturing output, though employment may be lower due to capital deepening.</li>
+  <li><strong>Policy:</strong> Efficient outcomes require a mix of instruments—capital tax credits, training subsidies, and vacancy license fees—financed at zero net fiscal cost. Both firms and workers must be subsidized to reach the first-best.</li>
 </ul>
 </details>
+
 
 ---
 
