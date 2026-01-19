@@ -23,7 +23,7 @@ Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.
 ## Working Papers
 
 ### Resolving Coordination Frictions in Structural Labor Transitions: The Case of the Green Transition  
-*Working Paper, 2025*<br> 
+*Working Paper, 2025 (under review at European Economic Review)*<br> 
 Adhikari, S.   
 [Paper](https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf)
 <details><summary><strong>Key Findings</strong></summary>
