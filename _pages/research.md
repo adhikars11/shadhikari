@@ -52,16 +52,14 @@ A large empirical literature has linked weather shocks to GDP to estimate future
 
 ---
 
-### Search Frictions and Industrial Share  
+### Capital Holdup, Skill Supply, and Industrial Policy under Search Frictions  
 *Working Paper, 2025*  
 Adhikari, S. (UC Davis), and Guo, S. (IMF)  
 [Paper](#) | [Slides](#)  
-<details><summary><strong>Key Findings</strong></summary>
-<ul>
-  <li><strong>Mechanism:</strong> Capital-intensive manufacturing faces two inefficiencies: (i) a hold-up problem that discourages firm investment, and (ii) a search externality where workers’ entry raises vacancy creation but is not internalized.</li>
-  <li><strong>Impact:</strong> The decentralized equilibrium underinvests in capital and employs too few manufacturing workers. The social planner’s allocation delivers higher manufacturing output, though employment may be lower due to capital deepening.</li>
-  <li><strong>Policy:</strong> Efficient outcomes require a mix of instruments—capital tax credits, training subsidies, and vacancy license fees—financed at zero net fiscal cost. Both firms and workers must be subsidized to reach the first-best.</li>
-</ul>
+<details><summary><strong>Abstract</strong></summary>
+<p>
+Manufacturing in many  economies faces a chicken-and-egg problem: firms create few manufacturing jobs when they expect  too small a pool of workers with suitable skills, while workers are reluctant to acquire those skills when manufacturing job opportunities are limited. We analyze optimal design of industrial policy in a two-sector search model with job-specific capital and workers choosing educational tracks. The decentralized equilibrium features three inefficiencies: capital underinvestment from holdup, matching externality, and inefficient sectoral allocation of labor. Under the standard Hosios condition, only the underinvestment distortion remains, implying that policy should focus on investment incentives, and job creation and skill acquisition will endogenously catch up. When Hosios is violated with workers' bargaining powers being too small, an additional wedge distorting workers' sectoral choice emerges and targeted training subsidies become welfare-improving. In quantitative exercise, we show that greater services-trade openness raises manufacturing employment share. 
+</p>
 </details>
 
 
