@@ -22,15 +22,18 @@ Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.
 
 ## Working Papers
 
-### Resolving Coordination Frictions in Structural Labor Transitions: The Case of the Green Transition  
+### Resolving Coordination Frictions in Green Labor Transitions:  
+*Minimizing Unemployment, Costs, and Welfare Distortions*  
 *Working Paper, 2025 (under review at European Economic Review)*<br> 
 Adhikari, S.   
 [Paper](https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf)
+
 <details><summary><strong>Key Findings</strong></summary>
 <ul>
-  <li><strong>Policy design matters:</strong> One-sided subsidies (to firms or workers alone) can meet green targets, but with higher unemployment and fiscal costs.</li>
-  <li><strong>Dual-targeted subsidies are optimal:</strong> Coordinated support for firms and workers reduces unemployment by up to 18% and fiscal costs by up to 31%.</li>
-  <li><strong>Welfare threshold:</strong> Net gains arise only if the environmental externality equals at least a 0.6% productivity boost.</li>
+  <li><strong>Coordination friction:</strong> Workers and firms underinvest in entry and vacancies without each other.</li>
+  <li><strong>Dual policy dominates:</strong> Hits the 2% → 14% target with <strong>39 bps</strong> lower unemployment, <strong>5 bps of GDP</strong> lower fiscal cost, and <strong>23 bps</strong> higher welfare than one-sided subsidies.</li>
+  <li><strong>Dynamic optimal design:</strong> Support is hump-shaped; mix rotates <strong>worker → firm → worker</strong>.</li>
+  <li><strong>Welfare threshold:</strong> Net gains when environmental benefits exceed <strong>0.87% (consumption-equivalent)</strong>.</li>
 </ul>
 </details>
 
