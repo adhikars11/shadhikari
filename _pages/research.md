@@ -38,20 +38,6 @@ Adhikari, S.
 
 ---
 
-### Projecting Macroeconomic Cost of Climate Change: A Case for Adaptation  
-*Working Paper, 2025*  
-Adhikari, S. (UC Davis), Batibeniz, F. (ETH Zürich), Bellon, M. (IMF), Massetti, E. (IMF), Seneviratne, S. (ETH Zürich), and Waidelich, P. (ETH Zürich)    
-Paper (coming soon) | Slides (coming soon)   
-
-<details><summary><strong>Abstract</strong></summary>
-<p>
-A large empirical literature has linked weather shocks to GDP to estimate future losses from climate change and has obtained a wide range of results. We develop a framework that nests past approaches, distinguishing between modelling assumptions about how changes in climate variables translate into GDP impacts. We show how four prominent model choices in the literature are related to different assumptions about the persistence of impacts and adaptation. We follow recent developments and apply our framework to extreme weather shocks, including extreme heat and harsh droughts, using high-resolution climate projections to obtain long-term GDP impacts. We compare results under the four different modelling assumptions and show that they play an outsized role in determining the size of impacts. Finally, we quantify the role of different sources of uncertainty. The goal is to provide a structured method that can be used for policy-relevant macro-fiscal projections and frameworks.
-</p>
-</details>
-
-
----
-
 ### Capital Holdup, Skill Supply, and Industrial Policy under Search Frictions  
 *Working Paper, 2025*  
 Adhikari, S. (UC Davis), and Guo, S. (IMF)  
@@ -62,6 +48,18 @@ Manufacturing in many  economies faces a chicken-and-egg problem: firms create f
 </p>
 </details>
 
+---
+
+### Projecting Macroeconomic Cost of Climate Change: A Case for Adaptation  
+*Working Paper, 2025*  
+Adhikari, S. (UC Davis), Batibeniz, F. (ETH Zürich), Bellon, M. (IMF), Massetti, E. (IMF), Seneviratne, S. (ETH Zürich), and Waidelich, P. (ETH Zürich)    
+Paper (coming soon) | Slides (coming soon)   
+
+<details><summary><strong>Abstract</strong></summary>
+<p>
+A large empirical literature has linked weather shocks to GDP to estimate future losses from climate change and has obtained a wide range of results. We develop a framework that nests past approaches, distinguishing between modelling assumptions about how changes in climate variables translate into GDP impacts. We show how four prominent model choices in the literature are related to different assumptions about the persistence of impacts and adaptation. We follow recent developments and apply our framework to extreme weather shocks, including extreme heat and harsh droughts, using high-resolution climate projections to obtain long-term GDP impacts. We compare results under the four different modelling assumptions and show that they play an outsized role in determining the size of impacts. Finally, we quantify the role of different sources of uncertainty. The goal is to provide a structured method that can be used for policy-relevant macro-fiscal projections and frameworks.
+</p>
+</details>
 
 ---
 
