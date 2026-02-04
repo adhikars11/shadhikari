@@ -12,9 +12,11 @@ I am passionate about making economics and data science accessible through an in
 ### University of California, Davis (2021-Present)
 
 **Teaching Assistant**
+
+- *Econ 240C (PhD): Time Series Analysis* - Winter 2026  
 - *Econ 141: Economic and Financial Forecasting* - Spring 2025  
 - *Econ 140: Econometrics* - Fall 2023, Spring 2024  
-- *Econ 001B: Intermediate Macroeconomics* - Spring 2023, Fall 2024  
+- *Econ 001B: Intermediate Macroeconomics* - Spring 2023, Fall 2024, Fall 2025  
 - *Econ 122: Game Theory* - Fall 2022  
 - *Econ 001A: Principles of Microeconomics* - Winter 2022  
 - *Econ 100B: Intermediate Microeconomics* - Spring 2022  
