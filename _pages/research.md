@@ -23,7 +23,7 @@ Adhikari, S., Geromichalos, A., Gursoy, A., & Kospentaris, I.
 ## Working Papers
 
 ### Resolving Coordination Frictions in Green Labor Transitions: Minimizing Unemployment, Costs, and Welfare Distortions
-*Working Paper, 2025 (under review at European Economic Review)*<br> 
+Working Paper, 2025 (Revise and resubmit (R&R), European Economic Review)<br>
 Adhikari, S.   
 [Paper](https://adhikars11.github.io/shadhikari/files/dmp_green_paper.pdf) | [Slides](https://adhikars11.github.io/shadhikari/files/dmp_green_slides.pdf)
 
