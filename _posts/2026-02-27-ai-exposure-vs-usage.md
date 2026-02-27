@@ -4,8 +4,6 @@ title: 'AI Exposure vs. Realized AI Usage: What Do We Learn?'
 date: 2026-02-27
 permalink: /posts/2026/02/ai-exposure-vs-usage/
 ---
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
