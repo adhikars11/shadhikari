@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Writing"
+title: ""
 permalink: /blog/
 author_profile: true
 ---
