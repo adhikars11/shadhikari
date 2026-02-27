@@ -9,6 +9,8 @@ redirect_from:
 
 I am an economist studying how economies reallocate workers through large disruptions — the green transition, industrialization, AI. My tools span structural theory, time-series econometrics, and production-grade data engineering.
 
-My experiences span across academia, public policy, and technology. At the International Monetary Fund, I collaborated with economists and climate scientists to quantify the economic impacts of climate change using high-resolution spatio-temporal data, informing climate policy discussions. At Posit (formerly RStudio), first as a Software Development Intern, I developed the [shinymodels](https://shinymodels.tidymodels.org/) R package for interactive model exploration. Later, I worked as a data science educator creating over ten end-to-end data science projects to train clients in the tidyverse framework. My Ph.D. research focuses on quantifying labor market frictions, developing predictive models of emissions, and evaluating the design of cost-effective policies for the economic transition.
+I have built things on both sides of research and practice: climate damage projection frameworks using high-resolution geo-spatial data at the **IMF**, the open-source [shinymodels](https://shinymodels.tidymodels.org/) R package at **RStudio/Posit**, and a growing body of [work on AI and labor markets](/blog/) that I am writing about in public as it develops.
 
-I am finishing my Ph.D. at UC Davis in 2026 and looking for roles where rigorous economic thinking meets real-world impact — in academia, policy, tech, or anything in between.
+I am finishing my Ph.D. at UC Davis in 2026 and looking for roles where economic rigor and real-world stakes are both non-negotiable.
+
+[shadhikari@ucdavis.edu](mailto:shadhikari@ucdavis.edu)
