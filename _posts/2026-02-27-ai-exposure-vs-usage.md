@@ -381,7 +381,7 @@ permalink: /posts/2026/02/ai-exposure-vs-usage/
 <section class="hero">
   <span class="topic-tag">Artificial Intelligence &amp; Labor</span>
   <h1>AI Exposure vs. Realized AI Usage: What Do We Learn?</h1>
-  <p class="subtitle">Seven academic exposure indices predict which occupations are susceptible to AI. Observed Claude usage data tells us where adoption is actually happening. The two tell different stories.</p>
+  <p class="subtitle">Exposure indices measure where AI could matter. Observed Claude usage data shows where adoption is happening. They don’t fully align.</p>
   <p class="meta">Shisham Adhikari <span>&middot;</span> February 27, 2026</p>
 </section>
 
@@ -391,19 +391,19 @@ permalink: /posts/2026/02/ai-exposure-vs-usage/
   <div class="takeaways-wrap">
     <div class="takeaways">
       <span class="kicker">Key Takeaways</span>
-      <ol>
-        <li><strong>Rankings match, intensity does not.</strong> Exposure metrics correctly order occupations by AI susceptibility, but miss how much usage actually varies across them.</li>
-        <li><strong>Adoption is heterogeneous across occupations.</strong> Software and computer occupations use AI far beyond their predicted exposure. Office and administrative workers are highly exposed on paper yet largely absent from realized usage.</li>
-        <li><strong>Diffusion is frontier-led.</strong> The top exposure decile accounts for roughly 45% of all observed usage, concentrated in a handful of digitally native roles rather than spread broadly.</li>
+     <ol>
+        <li><strong>Rankings align; intensity doesn’t.</strong> Exposure metrics broadly rank occupations correctly but miss how uneven usage is.</li>
+        <li><strong>Adoption is uneven.</strong> Computing roles over-adopt relative to exposure; office/admin roles under-adopt despite high exposure.</li>
+        <li><strong>Diffusion is frontier-led.</strong> The top exposure decile accounts for ~45% of observed usage, concentrated in digitally native jobs.</li>
       </ol>
     </div>
   </div>
 
   <div class="prose">
 
-    <p>A substantial body of academic work now measures which occupations are most susceptible to artificial intelligence, identifying jobs where AI could plausibly speed up or substitute for human work. These measures are widely used in policy analysis and economic forecasting. But they are fundamentally measures of potential. The harder question is where AI is actually being adopted today, and how well exposure scores anticipate that.</p>
+    <p>Exposure indices have become a standard way to measure where AI could affect work. But they capture potential, not adoption. This note compares seven exposure metrics widely used in academic research to realized usage from the Anthropic Economic Index (AEI), which tracks how Claude is used across occupations.</p>
 
-    <p>This note takes a first step at answering that question by comparing seven occupation-level AI exposure indices against observed usage data from the Anthropic Economic Index (AEI), a dataset tracking how people across different occupations are using Claude in their work. The comparison covers 586 occupations accounting for over 91% of total AEI usage mass, making it a representative look at where AI interactions are actually concentrated.</p>
+    <p>The sample includes 586 matched occupations, covering 91% of total AEI usage mass. That gives a representative view of where observed AI interactions concentrate.</p>
 
     <h2>What Are We Comparing?</h2>
 
@@ -485,19 +485,19 @@ permalink: /posts/2026/02/ai-exposure-vs-usage/
 
     <h3>Over-adopters: Software and Computing Occupations</h3>
 
-    <p>The occupations with the largest positive gaps are concentrated in software development, systems administration, and related computing fields. Computer Programmers and Software Developers alone account for over 13% of total AEI usage mass. The gap is not marginal: Computer Programmers have a standardized adoption gap of over 11, nearly three times larger than the next occupation on the list.</p>
+    <p>The biggest positive gaps are concentrated in software and systems roles. Programmers and software developers alone account for over 13% of total AEI usage. The gap is extreme: Computer Programmers exceed +11 (z units), nearly triple the next-largest over-adopter.</p>
 
-    <p>What these occupations share is direct, digital production work: writing code, designing interfaces, administering systems. AI assistance integrates seamlessly into an existing digital workflow. The marginal cost of adoption is low. The output is already text or code. There is no physical file, no compliance gatekeeper, no separate interface standing between the worker and the AI tool.</p>
+    <p>These jobs are digitally native. Work product is already text or code, so AI fits directly into existing workflows with low friction: no handoffs, separate interfaces, or compliance bottlenecks.</p>
 
     <h3>Under-adopters: Clerical, Support, and Some Analytical Occupations</h3>
 
-    <p>The occupations with the largest negative gaps tell a different story. News Analysts, Proofreaders, Telemarketers, Payroll Clerks, Data Entry Keyers, and Legal Secretaries all rank among the highest-exposure occupations in the academic literature, yet their observed AI usage is a fraction of what that exposure would predict.</p>
+    <p>The largest negative gaps come from clerical and support occupations, plus a few analytical roles. Many are high exposure on paper, for example proofreaders, payroll clerks, data entry keyers, and legal secretaries, but show far lower observed usage than exposure would predict.</p>
 
-    <p>The common thread among under-adopters is not a lack of AI-susceptible tasks. It is the presence of organizational friction. Clerical and support roles often operate within rigid workflow software (payroll systems, CRMs, legal document management platforms) that do not easily accommodate a general-purpose AI assistant. Compliance requirements may restrict which tools can be used and how. In some cases, such as telemarketers and bill collectors, the work is primarily interpersonal and telephonic rather than text-based in a way that makes Claude-style assistance less natural. The technology may be suitable; the organizational infrastructure is not.</p>
+    <p>The constraint is not task susceptibility. It is workflow and organizational friction. These roles often sit inside rigid systems (payroll, CRMs, document management) with limited integration, plus compliance and tool restrictions. In some jobs, such as telemarketing and collections, the work is primarily live and interpersonal rather than text based, making Claude-style assistance less natural.</p>
 
     <h2>The Pattern Holds Across Occupation Families</h2>
 
-    <p>Zooming out from individual occupations to broader SOC major groups confirms that this is a structural, not idiosyncratic, phenomenon. The Computer and Mathematical occupations group has by far the largest positive mean residual, sitting more than two standard deviations above what exposure would predict. Office and Administrative Support, Sales, Business and Financial Operations, and Legal all sit in negative territory despite being among the most exposure-intensive groups in the literature.</p>
+    <p>Zooming out from individual occupations to broader SOC major groups confirms that this is a structural, not idiosyncratic, phenomenon. Computer and Mathematical occupations have the largest positive mean residual, more than two standard deviations above predicted. Office and Administrative Support, Sales, Business and Financial Operations, and Legal are negative on average despite high exposure.</p>
 
     <div class="figure-block">
       <span class="fig-label">Figure 2</span>
@@ -510,19 +510,19 @@ permalink: /posts/2026/02/ai-exposure-vs-usage/
 
     <h2>Frontier-Led Adoption</h2>
 
-    <p>Taken together, these patterns are consistent with <strong>frontier-led adoption</strong>: AI diffusion concentrated in occupations already at the technological frontier, digitally native, text- and code-intensive, and accustomed to rapid tooling change, rather than spreading uniformly across all highly exposed occupations.</p>
+    <p>Overall, the evidence points to <strong>frontier-led adoption</strong>: early diffusion concentrates in digitally native, text- and code-intensive roles that can absorb new tools quickly, rather than spreading evenly across all high-exposure occupations.</p>
 
-    <p>This is not entirely surprising. Early adoption of general-purpose technologies has historically been uneven, concentrated among firms and workers best positioned to absorb and integrate new capabilities. What is notable here is how sharp the concentration is. The top exposure decile captures roughly 45% of total AEI usage mass, and within that decile, a handful of software and computing occupations drive a large share of total interactions.</p>
+    <p>The concentration is steep. The top exposure decile accounts for about 45% of AEI usage, and a small set of software and computing jobs drives a large share of interactions.</p>
 
-    <p>The implication is that exposure indices may overstate the breadth of near-term AI adoption. High exposure scores in clerical and administrative occupations do not yet translate into high realized usage, and the reasons appear structural rather than temporary. Workflow constraints, compliance environments, and the nature of the work interface matter as much as task-level susceptibility.</p>
+    <p>This suggests exposure indices can overstate near-term adoption breadth. High exposure in clerical and administrative work does not yet translate into high usage, largely because of workflow constraints, compliance limits, and tool integration frictions.</p>
 
     <h2>Bottom Line</h2>
 
-    <p>Exposure metrics and realized usage agree on direction but diverge on magnitude and distribution. Rankings are reasonably consistent; intensity predictions are not. The adoption gap is itself an economically meaningful object, concentrated in identifiable occupation families for identifiable reasons.</p>
+    <p>Exposure and realized usage align in rank more than in intensity. The adoption gap is economically meaningful and concentrated in specific occupation families for structural reasons.</p>
 
-    <p>For researchers, single exposure indices should be used cautiously as proxies for actual adoption. For policymakers, the results suggest that the workers most likely to need support navigating AI-driven change are not necessarily those already actively using AI tools today. They may be the clerical and administrative workers whose jobs are highly exposed but whose organizations have not yet integrated AI into their workflows.</p>
+    <p>For researchers, treat single exposure indices cautiously as proxies for adoption. For policymakers, the workers who may need the most support are not only current AI users, but also high-exposure clerical and administrative workers in organizations where adoption has not arrived.</p>
 
-    <p>As the AEI continues to release updated usage data, tracking how these adoption gaps evolve over time will be an important window into whether AI diffusion is broadening across occupation families or remaining concentrated at the technological frontier.</p>
+    <p>Future AEI releases will allow tracking whether these gaps narrow as diffusion broadens, or persist as adoption remains concentrated at the frontier.</p>
 
   </div>
 </div>
@@ -534,17 +534,74 @@ permalink: /posts/2026/02/ai-exposure-vs-usage/
     <p class="app-intro">Data sources, construction choices, and coverage statistics underlying the analysis above.</p>
 
     <h3>A1. Exposure Data</h3>
-    <p><strong>Source:</strong> Yale Budget Lab AI Exposure Dataset (Sheet <code>FA5</code>). Six z-score standardized exposure metrics and one PCA-standardized composite score:</p>
-    <ul>
-      <li><strong>AIOE</strong> &mdash; Acemoglu-style AI Occupational Exposure index (Felten et al., survey-based)</li>
-      <li><strong>DV Rating Beta</strong> &mdash; GPT-4 annotated task-level exposure (Eloundou et al.)</li>
-      <li><strong>Human Rating Beta</strong> &mdash; Human-annotated task-level exposure (Eloundou et al.)</li>
-      <li><strong>GenAI Total</strong> &mdash; GenAI productivity exposure across all O*NET tasks (Eisfeldt et al.)</li>
-      <li><strong>GenAI Core</strong> &mdash; GenAI productivity exposure across core tasks only (Eisfeldt et al.)</li>
-      <li><strong>AI Applicability Score</strong> &mdash; Microsoft Copilot interaction-based exposure (Tomlinson et al.)</li>
-      <li><strong>PCA Composite</strong> &mdash; First principal component across the six metrics above</li>
-    </ul>
-    <p><strong>Coverage:</strong> 867 occupations have at least one exposure metric; 710 have all six; 779 have all but Webb's <code>pct_ai</code>, which is excluded because its PCA weight is approximately 10 times smaller than the others. All metrics are coded to SOC 2018.</p>
+
+<p><strong>Source:</strong> Yale Budget Lab AI Exposure Dataset (sheet <code>FA5</code>), coded to SOC 2018. Underlying measures draw on Felten et al. (2021), Eloundou et al. (2024), Eisfeldt et al. (2023), Tomlinson et al. (2025), and Webb (2020).</p>
+
+<div class="table-wrap">
+  <p class="table-caption">Table A1. AI Exposure Measures</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>Study</th>
+        <th>What it measures</th>
+        <th>Labeling basis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>dv_rating_beta</code></td>
+        <td>Eloundou et al. (2024)</td>
+        <td>Task exposure to GenAI (aggregated to occupations)</td>
+        <td>GPT-4 ratings</td>
+      </tr>
+      <tr>
+        <td><code>human_rating_beta</code></td>
+        <td>Eloundou et al. (2024)</td>
+        <td>Task exposure to GenAI (aggregated to occupations)</td>
+        <td>Human ratings</td>
+      </tr>
+      <tr>
+        <td><code>genaiexp_estz_total</code></td>
+        <td>Eisfeldt et al. (2023)</td>
+        <td>Predicted GenAI productivity potential (all tasks)</td>
+        <td>Model-based scoring</td>
+      </tr>
+      <tr>
+        <td><code>genai_exp_estz_core</code></td>
+        <td>Eisfeldt et al. (2023)</td>
+        <td>Predicted GenAI productivity potential (core tasks)</td>
+        <td>Model-based scoring</td>
+      </tr>
+      <tr>
+        <td><code>AIOE</code></td>
+        <td>Felten et al. (2021)</td>
+        <td>Occupation-level exposure to AI-relevant capabilities</td>
+        <td>Survey-based mapping</td>
+      </tr>
+      <tr>
+        <td><code>ai_applicability_score</code></td>
+        <td>Tomlinson et al. (2025)</td>
+        <td>AI applicability inferred from real tool interactions</td>
+        <td>Observed interactions</td>
+      </tr>
+      <tr>
+        <td><code>pct_ai</code> (not in PCA)</td>
+        <td>Webb (2020)</td>
+        <td>AI relatedness via patent–task links</td>
+        <td>AI patents</td>
+      </tr>
+      <tr>
+        <td><code>PCA_composite</code></td>
+        <td>Budget Lab (computed)</td>
+        <td>First PC across the six standardized measures above (excluding <code>pct_ai</code>)</td>
+        <td>PCA</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p><strong>Coverage:</strong> 867 occupations have at least one metric; 710 have all six core measures; 779 have all except <code>pct_ai</code>. <code>pct_ai</code> is excluded from the PCA composite because its PCA loading is much smaller than the others.</p>
 
     <h3>A2. Anthropic Economic Index Data</h3>
     <p><strong>Source:</strong> Anthropic Economic Index (<code>task_pct_v2.csv</code> + <code>onet_task_statements.csv</code>). The AEI maps observed Claude interactions to O*NET task statements and aggregates usage weights to occupations. Coverage: 974 O*NET occupations total; 749 with non-zero usage weights. SOC codes correspond to the O*NET-SOC 2010 taxonomy and are harmonized to SOC 2018 for this analysis.</p>
@@ -570,6 +627,7 @@ permalink: /posts/2026/02/ai-exposure-vs-usage/
 
     <h3>A4. Construction of the Adoption Gap</h3>
     <p>Both AEI usage percentages and exposure scores are standardized to z-scores within the 586-occupation overlap sample before differencing. This ensures the gap measure is scale-invariant and interpretable as a deviation in standard deviation units.</p>
+    <p><strong>Replication:</strong> Code and processed data files are available upon request.</p>
 
     <h3>A5. AEI Release History</h3>
     <div class="table-wrap">
