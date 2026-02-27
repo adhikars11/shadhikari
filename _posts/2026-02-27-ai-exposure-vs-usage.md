@@ -392,8 +392,8 @@ permalink: /posts/2026/02/ai-exposure-vs-usage/
     <div class="takeaways">
       <span class="kicker">Key Takeaways</span>
       <ol>
-        <li><strong>Rankings travel, intensity does not.</strong> Exposure metrics correctly order occupations by AI susceptibility, but badly miss how much usage actually varies across them.</li>
-        <li><strong>Computing over-adopts; clerical under-adopts.</strong> Software and computer occupations use AI far beyond their predicted exposure. Office and administrative workers are highly exposed on paper yet largely absent from realized usage.</li>
+        <li><strong>Rankings match, intensity does not.</strong> Exposure metrics correctly order occupations by AI susceptibility, but miss how much usage actually varies across them.</li>
+        <li><strong>Adoption is heterogeneous across occupations.</strong> Software and computer occupations use AI far beyond their predicted exposure. Office and administrative workers are highly exposed on paper yet largely absent from realized usage.</li>
         <li><strong>Diffusion is frontier-led.</strong> The top exposure decile accounts for roughly 45% of all observed usage, concentrated in a handful of digitally native roles rather than spread broadly.</li>
       </ol>
     </div>
