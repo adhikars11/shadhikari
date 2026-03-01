@@ -405,11 +405,11 @@ permalink: /posts/2026/02/ai-exposure-vs-usage/
 
     <p>The sample includes 586 matched occupations, covering 91% of total AEI usage mass. That gives a representative view of where observed AI interactions concentrate.</p>
 
-    <h2>What Are We Comparing?</h2>
+    <h2>What Am I Comparing?</h2>
 
-    <p>The exposure metrics come from leading academic studies, each approaching the question from a slightly different angle. Some rely on human annotators, some on language model judgments, some on patent filings. All attempt to quantify how much of an occupation's task bundle could plausibly be affected by generative AI. For this analysis, we use six z-score standardized metrics plus one PCA-composite score, sourced from the Yale Budget Lab's exposure dataset (see appendix for details).</p>
+    <p>The exposure metrics come from leading academic studies, each approaching the question from a slightly different angle. Some rely on human annotators, some on language model judgments, some on patent filings. All attempt to quantify how much of an occupation's task bundle could plausibly be affected by generative AI. For this analysis, I use six z-score standardized metrics plus one PCA-composite score, sourced from the Yale Budget Lab's exposure dataset (see appendix for details).</p>
 
-    <p>The usage measure comes from the AEI, which maps observed Claude interactions to O*NET occupations. Rather than measuring what AI could do, it measures what workers are actually asking AI to do on their behalf. We refer to this as realized usage throughout.</p>
+    <p>The usage measure comes from the AEI, which maps observed Claude interactions to O*NET occupations. Rather than measuring what AI could do, it measures what workers are actually asking AI to do on their behalf. I refer to this as realized usage throughout.</p>
 
     <p>The object of interest is the <strong>adoption gap</strong>: for each occupation, how much does standardized AEI usage deviate from what a given exposure metric would predict?</p>
 
