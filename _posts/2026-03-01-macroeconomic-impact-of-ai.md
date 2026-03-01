@@ -177,13 +177,15 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
       background: var(--surface);
       border: 1px solid var(--rule);
       border-radius: 6px;
-      padding: 1rem 1.5rem;
+      padding: 0.75rem 1rem;
       font-family: var(--mono);
-      font-size: 0.88rem;
+      font-size: 0.8rem;
       color: var(--ink);
       text-align: center;
       margin: 1.5rem 0 2rem;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+      overflow-x: auto;
     }
     .formula .formula-line {
       display: block;
@@ -337,7 +339,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 <section class="hero">
   <span class="topic-tag">AI Economics</span>
   <h1>From Potential to Practice: Measuring AI's Aggregate Economic Impact</h1>
-  <p class="subtitle">Replacing theoretical exposure with observed usage collapses the 10-year Total Factor Productivity (TFP) estimate from 0.62% to 0.01%.</p>
+  <p class="subtitle">Replacing theoretical exposure with observed usage collapses the 10-year Total Factor Productivity (TFP) estimate from 0.62% to 0.04%.</p>
   <p class="meta">Shisham Adhikari <span>&middot;</span> March 1, 2026</p>
 </section>
 
@@ -395,7 +397,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
     <p>One methodological adjustment: exposure measures potential susceptibility, so φ = 0.23 (Svanberg et al. 2024) applies. Usage captures tasks already being used—feasibility is revealed by adoption—so I set φ = 1 for usage and hybrid models.</p>
 
     <div class="table-wrap">
-      <p class="table-caption">Table 1 &mdash; Main results under three index assumptions (π̄ = 0.27 throughout)</p>
+      <p class="table-caption">Table 1 &mdash; Main results under three index assumptions</p>
       <table>
         <thead>
           <tr>
@@ -439,7 +441,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
     <p>The baseline π̄ = 0.27 averages writing and customer-service experiments (Noy and Zhang 2023; Brynjolfsson, Li, and Raymond 2023). Since AEI usage is concentrated in software development (see <a href="/shadhikari/posts/2026/02/ai-exposure-vs-usage/">previous post</a>), Table 2 varies π̄ using task-type-specific estimates from the literature.</p>
 
     <div class="table-wrap">
-      <p class="table-caption">Table 2 &mdash; TFP sensitivity to π̄ (usage and hybrid, φ = 1)</p>
+      <p class="table-caption">Table 2 &mdash; TFP sensitivity to π̄ (usage and hybrid)</p>
       <table>
         <thead>
           <tr>
@@ -486,20 +488,14 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
     <p>Even at π̄ = 0.55 (Peng, Kalliamvakou, Cihon, and Demirer 2023, coding), usage TFP reaches 0.08% and hybrid 0.47%—both below the 0.62% exposure baseline. The gap is driven by s̄<sub>A</sub>, not by which experiment calibrates π̄.</p>
 
     <blockquote class="pullquote">
-      <p>The exposure baseline and usage estimates differ not because of disagreement about how productive AI is per task, but about how many tasks AI is currently reaching.</p>
+      <p>The gap is almost entirely driven by the scope of AI adoption—how many tasks it is currently reaching—not by disagreement about how productive it is within those tasks.</p>
     </blockquote>
 
     <h2>Conclusion</h2>
 
-    <p>Acemoglu's task-based framework is the right structure for this calculation. The debate should be about inputs, not the formula. On inputs, two choices matter most:</p>
+    <p>A task-based framework is a useful, microfounded way to think about AI's aggregate macroeconomic impact. It forces precision: the headline number depends on how broadly AI is deployed, how many of those tasks cross the feasibility threshold, the labor intensity of affected industries, and how much productivity it delivers per task. Right now, actual deployment is narrow. The gap between what AI could reach and where it is actually being used accounts for nearly all the difference between the optimistic and realistic estimates.</p>
 
-    <ul>
-      <li><strong>Which index defines scope.</strong> Exposure measures AI's technological potential—broad and ahead of realized adoption. Usage measures where AI is actively deployed today—narrower and concentrated in technology and professional services. The difference in s̄<sub>A</sub> (18.7% vs. 0.25%) drives most of the TFP gap.</li>
-      <li><strong>Whether the feasibility filter applies.</strong> Setting φ = 0.23 for exposure and φ = 1 for usage is the principled treatment. The gap between the two models persists under either assumption about φ.</li>
-      <li><strong>The uncertainty in π̄ is real but second-order.</strong> Varying it across the available experimental literature moves the usage TFP from 0.02% to 0.08%. Tracking how s̄<sub>A</sub> evolves as diffusion broadens is the empirical question that matters most going forward.</li>
-    </ul>
-
-    <p>The aggregate impact depends on each piece of the formula—s̄<sub>A</sub>, φ, s<sub>L</sub>, and π̄—none of which are fixed. As AI diffuses, each parameter will shift. The value of the framework is that it makes those revisions tractable: update one ingredient, and the aggregate implication follows directly.</p>
+    <p>Going forward, the actual impact will depend on how each of these pieces evolves—how widely AI adoption spreads across occupations, what share of exposed tasks prove cost-effective at scale, the labor share of industries where diffusion runs deepest, and whether productivity gains generalize beyond the domains studied so far. Tracking those changes carefully, as AI diffuses, is what will determine whether the aggregate estimate moves toward the upper or lower end of the range.</p>
 
   </div>
 
