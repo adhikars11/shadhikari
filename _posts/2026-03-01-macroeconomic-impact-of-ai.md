@@ -121,7 +121,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 <section class="hero">
   <span class="topic-tag">AI Economics</span>
   <h1>The AI Productivity Gap: Why Exposure and Usage Estimates Diverge</h1>
-  <p class="subtitle">Acemoglu (2024) and Anthropic's Economic Index apply the same theorem to the same task taxonomy—and reach estimates 30&times; apart. A parameter-by-parameter breakdown.</p>
+  <p class="subtitle">Exposure-based academic estimates and usage-based industry estimates can diverge dramatically—even with the same task-based framework and aggregation. Here’s why (using Acemoglu 2024 vs. Anthropic’s Economic Index as a motivating example).</p>
   <p class="meta">Shisham Adhikari <span>&middot;</span> March 1, 2026</p>
 </section>
 
@@ -132,8 +132,8 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
     <div class="takeaways">
       <span class="kicker">Key Takeaways</span>
       <ul>
-        <li><strong>Scope isn't the problem.</strong> Both find AI reaches roughly 18–20% of the wage-bill–weighted task portfolio. That number is not in dispute.</li>
-        <li><strong>The gap is almost entirely in one number: speedup.</strong> Controlled experiments find 1.2–1.6&times;. Anthropic's observed usage data finds 9–12&times;. Run those through Hulten's formula and you get estimates 30&times; apart.</li>
+        <li><strong>They agree on scope.</strong> Both find AI reaches roughly 18–20% of the wage-bill–weighted task portfolio. That number is not in dispute.</li>
+        <li><strong>They disagree on speed.</strong> Lab studies: ~1.2–1.6× faster. Real-world usage: ~9–12× faster for tasks people actually use AI on. That single input drives the ~30× gap.</li>
         <li><strong>The policy stakes are asymmetric.</strong> If Acemoglu is right, AI is a modest automation episode. If Anthropic's conservative range holds (0.7–1.2 pp/yr), we are in the largest U.S. productivity surge since the late 1990s.</li>
       </ul>
     </div>
@@ -143,32 +143,34 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Motivation</h2>
 
-    <p>Productivity growth is the long-run engine of rising living standards. In the United States, labor productivity grew at roughly 2.8% per year from 1995 to 2004—driven by the IT boom—and has averaged barely 1.4% since. AI reopens the question of whether a new general-purpose technology can break that trend. Reasonable people disagree—not just on values or politics, but empirically. The best available estimates of AI's aggregate impact are separated by an order of magnitude.</p>
+<p>What is AI's actual impact on the economy today? It's one of the most important questions in economics right now—and surprisingly hard to answer. Most estimates of AI's economic impact are built on theoretical exposure scores: models that predict which jobs AI <em>could</em> affect based on task descriptions. But exposure isn't the same as adoption, and the difference matters enormously for any serious estimate of economy-wide impact.</p>
 
-    <p>The two most careful answers come from opposite ends of the research ecosystem. Acemoglu (2024)—whose task-based framework partly underpins his 2024 Nobel Prize in Economics—estimates AI adds 0.06 percentage points per year to labor productivity. Anthropic's January 2026 Economic Index (Appel et al., 2026), built on a year of real Claude.ai usage data, estimates 1.0–1.8 pp/yr. Both work from the same theoretical scaffold—tasks as the unit of analysis, Hulten's theorem as the aggregator, O*NET as the task taxonomy—and reach very different conclusions. This post traces exactly where they part ways.</p>
+<p>That gap has produced two pioneering approaches from opposite ends of the research ecosystem. The academic approach is theory-first: start from tasks, map exposure using O*NET, and aggregate up to productivity. The industry approach is data-first: start from real usage—what people actually do with AI—and infer how much productivity is being unlocked in practice. They often share the same task-based scaffold, but they answer different questions, and they can yield very different headline numbers.</p>
+
+<p>This post puts these two approaches side by side, clarifies what each is measuring, and pinpoints where—and why—their estimates diverge.</p>
 
     <h2>The Task-Based Framework</h2>
 
-    <p>Think of the economy as a collection of tasks—writing, coding, analyzing, building, advising—each performed by workers or machines. AI expands what machines can do, shifting some of those tasks away from human labor. But how much that shift matters for the broader economy depends on two things.</p>
+<p><strong>Both methods rest on the same theoretical foundation.</strong> Start with a simple idea: the economy is a bundle of tasks—writing, coding, analyzing, building, advising—performed by people and, increasingly, machines. AI expands what machines can do, shifting some tasks away from human labor. The question is how that shift translates into economy-wide productivity.</p>
 
-    <p>First, tasks are complements, not substitutes. Automating one step in a process doesn't multiply output if other steps remain bottlenecks. A lawyer who drafts twice as fast still needs client meetings, review cycles, and court dates. This places a natural ceiling on how much partial automation can lift aggregate output. Second, AI doesn't affect all tasks equally. Its reach is greatest in routine cognitive work—coding, drafting, classification—and weakest in tasks requiring physical presence, interpersonal judgment, or contextual reasoning.</p>
+<p>Two forces matter. First, tasks are complements, not standalone pieces. Speeding up one step doesn’t raise total output one-for-one if other steps remain bottlenecks—a lawyer who drafts twice as fast still needs client meetings, review cycles, and court dates. That interdependence puts a ceiling on what partial automation can do. Second, AI’s impact is uneven across tasks: it tends to help most with routine cognitive work (drafting, coding, classification) and least where physical presence, interpersonal judgment, or deep context are essential.</p>
 
     <h2>Hulten's Theorem</h2>
 
-    <p>To translate task-level gains into an economy-wide number, Hulten's (1978) theorem says the aggregate productivity impact of an improvement equals that sector's wage-bill share times the log size of the improvement. Applied to AI:</p>
+<p>Hulten’s (1978) theorem provides the translation from task-level improvements to an economy-wide productivity number: the aggregate effect is the efficiency gain, weighted by how important the affected activity is in total production (often proxied by the wage bill). In this setting, it can be written as:</p>
 
-    <div class="formula">
-      <span class="formula-line">TFP gain &asymp; task scope &times; feasibility &times; labor share &times; productivity gain per task</span>
-      <span class="formula-line" style="color: var(--ink-muted); font-size: 0.8rem;">&asymp; s&#772;<sub>A</sub> &nbsp;&times;&nbsp; &phi; &nbsp;&times;&nbsp; s<sub>L</sub> &nbsp;&times;&nbsp; &pi;&#772;</span>
-      <span class="formula-comment">
-        s&#772;<sub>A</sub>&thinsp;= wage-bill–weighted share of AI-capable tasks &nbsp;|&nbsp;
-        &phi;&thinsp;= fraction of capable tasks that are cost-effective &nbsp;|&nbsp;
-        s<sub>L</sub>&thinsp;= labor income share (&asymp;0.65) &nbsp;|&nbsp;
-        &pi;&#772;&thinsp;= average fraction of task time saved
-      </span>
-    </div>
+<div class="formula">
+  <span class="formula-line">TFP gain &asymp; task scope &times; feasibility &times; labor share &times; productivity gain per task</span>
+  <span class="formula-line" style="color: var(--ink-muted); font-size: 0.8rem;">&asymp; s&#772;<sub>A</sub> &nbsp;&times;&nbsp; &phi; &nbsp;&times;&nbsp; s<sub>L</sub> &nbsp;&times;&nbsp; &pi;&#772;</span>
+  <span class="formula-comment">
+    <strong>task scope</strong> (s&#772;<sub>A</sub>)&thinsp;= wage-bill–weighted share of tasks AI can do &nbsp;|&nbsp;
+    <strong>feasibility</strong> (&phi;)&thinsp;= share of those tasks where AI is cost-effective in practice &nbsp;|&nbsp;
+    <strong>labor share</strong> (s<sub>L</sub>)&thinsp;= labor income share (&asymp;0.65) &nbsp;|&nbsp;
+    <strong>productivity gain per task</strong> (&pi;&#772;)&thinsp;= average fraction of task time saved
+  </span>
+</div>
 
-    <p>Acemoglu applies this formula directly. Anthropic applies a more general form—summing log speedups at the task level rather than using the linearized &pi;&#772;—which is mathematically equivalent for small speedups but materially different for large ones. At a 10&times; speedup, the linearized &pi;&nbsp;=&nbsp;0.9, while log(10)&nbsp;&asymp;&nbsp;2.3. Both approaches use the same theorem; they diverge on what gets plugged in.</p>
+<p>Both the academic and industry approaches use this same theorem and the same task-based structure. The divergence comes from what gets plugged into “productivity gain per task,” and how it is aggregated. Acemoglu uses the linearized time-saved measure directly. Anthropic uses a more general form that aggregates log speedups across tasks—nearly identical when speedups are small, but much larger when speedups are big. At a 10&times; speedup, the linearized time-saved measure is 0.9, while log(10) &asymp; 2.3.</p>
 
     <h2>Same Theorem, Different Inputs</h2>
 
