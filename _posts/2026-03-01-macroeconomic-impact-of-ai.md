@@ -172,21 +172,23 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
 <p>Both the academic and industry approaches use this same theorem and the same task-based structure. The divergence comes from what gets plugged into “productivity gain per task,” and how it is aggregated. Acemoglu uses the linearized time-saved measure directly. Anthropic uses a more general form that aggregates log speedups across tasks—nearly identical when speedups are small, but much larger when speedups are big. At a 10&times; speedup, the linearized time-saved measure is 0.9, while log(10) &asymp; 2.3.</p>
 
-    <h2>Same Theorem, Different Inputs</h2>
+    <h2>Where the Two Estimates Diverge</h2>
 
-    <h3>Task scope — not the disagreement</h3>
+    <h3>How broadly does AI reach?</h3>
 
-    <p>Acemoglu measures scope as the wage-bill–weighted share of O*NET tasks GPT-4 is capable of performing—a potential exposure measure. This puts roughly 18–19% of wage-bill–weighted labor in AI-capable tasks. Anthropic measures scope as the share of tasks workers actually bring to Claude (requiring at least 200 observations for stability). That also lands at roughly 18–20%. Two independent methods, measuring potential versus actual reach, arrive at nearly the same number. Scope is not the source of disagreement.</p>
+    <p>Both studies find that AI-capable tasks account for roughly 18–20% of total wages paid across the economy. Acemoglu asks which tasks a current AI model can do in principle; Anthropic looks at which tasks workers actually use Claude for. They measure different things—potential versus actual reach—and land at nearly the same number. This is not where the two estimates diverge.</p>
 
-    <h3>Gain per task — where the gap lives</h3>
+    <h3>How much does AI help when it's used?</h3>
 
-    <p><strong>Acemoglu's &pi;&#772;&nbsp;=&nbsp;0.27</strong> averages two controlled experiments. Noy and Zhang (2023) found professional writers were 40% faster with GPT-4 (speedup &asymp;&nbsp;1.6&times;); Brynjolfsson et al. (2023) found a 14% gain for customer-service workers with an AI tool (speedup &asymp;&nbsp;1.16&times;). The midpoint: &pi;&#772;&nbsp;=&nbsp;0.27, or an effective log-speedup of about 0.31.</p>
+    <p>This is where the gap opens up—and it's large.</p>
 
-    <p><strong>Anthropic's speedups are measured differently—and are far larger.</strong> For each task in Claude usage, Claude estimates (i) hours a professional would need <em>without</em> AI and (ii) minutes spent completing the task <em>with</em> Claude. Speedup = human-alone time ÷ human-with-AI time. Anthropic reports 9&times; for high-school-level tasks and 12&times; for college-level tasks—a mean log-speedup of roughly 2.3–2.5. That difference, run through Hulten's formula over a similar wage-bill share, produces almost the entire gap in headline estimates.</p>
+    <p>Acemoglu draws on two carefully run experiments from 2022–2023. In one, professional writers using GPT-4 finished tasks about 40% faster than those working without it. In another, call-center workers with an AI tool resolved 14% more issues per hour. Averaging those two studies, AI cuts task time by roughly 27%—or put differently, a task that took an hour now takes about 45 minutes.</p>
 
-    <h3>Feasibility — a secondary driver</h3>
+    <p>Anthropic's data tells a very different story. For each task that appears in Claude usage, the model estimates how long the task would take a professional without AI (in hours) and how long it actually took with Claude in the conversation (in minutes). Across thousands of tasks, Anthropic finds that what took an hour without AI takes around 6–7 minutes with it—speedups of 9–12×. That difference, multiplied across the same 18–20% slice of the wage bill, produces almost the entire gap in headline estimates.</p>
 
-    <p>Acemoglu applies &phi;&nbsp;=&nbsp;0.23: even where AI is capable, only about a quarter of those tasks are currently cost-effective at prevailing wages and AI prices. Anthropic applies no explicit filter—if workers are completing tasks with Claude, the cost-effectiveness threshold has already been crossed. When Anthropic's analysts multiply each log-speedup by the task-specific success rate and then account for task complementarity (&sigma;&nbsp;=&nbsp;0.5), the estimate narrows from 1.8 to 0.7–1.2&nbsp;pp/yr.</p>
+    <h3>Is cost-effectiveness assumed?</h3>
+
+    <p>Acemoglu applies a discount: even where AI can do a task, he estimates only about 1 in 4 such tasks are cheap enough—given current wages and AI subscription prices—for workers to actually use it. Anthropic doesn't apply this discount explicitly. The reasoning: if workers are already using Claude for a task, they've already decided it's worth it. When Anthropic's analysts do adjust—accounting for tasks where Claude fails, and for tasks that become bottlenecks when only some steps are automated—the estimate narrows from 1.8 to 0.7–1.2 pp/yr.</p>
 
     <h2>The Numbers Side by Side</h2>
 
@@ -202,34 +204,34 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
         </thead>
         <tbody>
           <tr>
-            <td>Task scope (wage-bill weight)</td>
-            <td>&sim;18–19% — GPT-4 exposure of O*NET tasks</td>
-            <td>&sim;18–20% — observed Claude usage, &ge;200 obs.</td>
+            <td>How scope is measured</td>
+            <td>Which tasks GPT-4 can do in principle (potential exposure)</td>
+            <td>Which tasks workers actually use Claude for (observed usage)</td>
           </tr>
           <tr>
-            <td>Speedup data source</td>
-            <td>Randomized experiments, GPT-4, 2022–23</td>
-            <td>Observed Claude conversations, Nov 2025</td>
+            <td>Share of wage bill covered</td>
+            <td>&sim;18–19%</td>
+            <td>&sim;18–20%</td>
+          </tr>
+          <tr>
+            <td>How speedups are measured</td>
+            <td>Randomized experiments, 2022–23</td>
+            <td>Observed Claude conversations, late 2025</td>
           </tr>
           <tr>
             <td>Observed speedup range</td>
-            <td>1.16&times; – 1.59&times;</td>
-            <td>9&times; – 12&times;</td>
+            <td>1.2&times; – 1.6&times; (task takes ~45 min instead of 1 hr)</td>
+            <td>9&times; – 12&times; (task takes ~6 min instead of 1 hr)</td>
           </tr>
           <tr>
-            <td>Gain parameter</td>
-            <td>&pi;&#772;&nbsp;=&nbsp;0.27 &nbsp;(log-speedup &asymp; 0.31)</td>
-            <td>log(speedup<sub>t</sub>) per task &asymp; 2.3–2.5</td>
-          </tr>
-          <tr>
-            <td>Feasibility filter</td>
-            <td>&phi;&nbsp;=&nbsp;0.23 (cost-effective tasks only)</td>
-            <td>None — usage = revealed feasibility</td>
+            <td>Cost-effectiveness filter</td>
+            <td>Applied: only ~1 in 4 capable tasks used in practice</td>
+            <td>Not applied: usage itself is the evidence of cost-effectiveness</td>
           </tr>
           <tr class="highlight-row">
-            <td>Baseline / adjusted estimate</td>
-            <td>0.62% over 10 yr &nbsp;(0.06 pp/yr)</td>
-            <td>1.8 pp/yr baseline &rarr; 0.7–1.2 pp/yr adjusted</td>
+            <td>Headline / adjusted estimate</td>
+            <td>0.62% over 10 years &nbsp;(0.06 pp/yr)</td>
+            <td>1.8 pp/yr baseline &rarr; 0.7–1.2 pp/yr after adjustments</td>
           </tr>
         </tbody>
       </table>
@@ -241,17 +243,17 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Why Are the Speedups So Different?</h2>
 
-    <p>Three explanations are plausible, and they aren't mutually exclusive. First, <strong>selection</strong>: workers bring tasks to Claude where they expect success. If users self-select the easiest fits, observed speedups reflect the best of the distribution, not the full one. Controlled experiments avoid this by assigning tasks randomly. Second, <strong>self-assessment bias</strong>: Anthropic's speedup estimates come from asking Claude to judge how long tasks take with and without AI—a novel approach with no precedent in the experimental literature. An AI evaluating its own productivity gain may be optimistic. Anthropic validates against external benchmarks where possible, but direct calibration against controlled trials remains limited.</p>
+    <p>The honest answer is that we don't know—but three explanations are probably all partially right. The most straightforward is <strong>selection</strong>. People use Claude for tasks where they expect it to help. If workers naturally lean toward their AI's strengths, the tasks that show up in usage data will be the ones where AI performs best. Controlled experiments sidestep this by randomly assigning tasks, including the hard ones where AI underperforms.</p>
 
-    <p>Third—and perhaps most important—<strong>genuine model improvement</strong>. Acemoglu's framework was calibrated on GPT-3/4-era experiments from 2022–2023. Anthropic's data reflects Claude usage in late 2025. If frontier capabilities have improved substantially in two to three years—which most benchmarks suggest they have—the speedup gap may partly be real, not artifactual. The right test would be randomized experiments on current frontier models, using the same task categories that appear in actual usage data. That evidence does not yet exist.</p>
+    <p>A second issue is <strong>self-reporting</strong>: Anthropic's speedup estimates come from asking Claude to judge how long tasks take with and without AI assistance. An AI system evaluating its own contribution is not an independent auditor. Third—and most hopeful—<strong>models may have genuinely improved</strong>. The experiments Acemoglu relies on used GPT-4 in 2022–2023. Anthropic's data reflects Claude in late 2025. If frontier AI capabilities have grown substantially in that time (and most benchmarks suggest they have), part of the speedup gap could be real. That would mean the true productivity impact sits somewhere between the two estimates—not at either extreme.</p>
 
     <h2>Conclusion</h2>
 
-    <p>Two careful, task-based analyses—same theorem, same taxonomy—produce estimates 30&times; apart. The theorem is not in dispute. Scope is not in dispute. The gap sits almost entirely in how fast AI completes tasks once it reaches them: a log-speedup of 0.3 versus 2.3.</p>
+    <p>Two careful analyses—same theorem, same task taxonomy—produce estimates that differ by roughly 30×. The theorem is not in dispute. The scope of AI's reach is not in dispute. The gap sits almost entirely in a single question: when AI handles a task, how much faster does it get done?</p>
 
-    <p>The policy implications hinge entirely on which is right. If Acemoglu is correct, AI's economic disruption is real but measured—comparable in pace to earlier automation waves, manageable with existing workforce policy tools. If Anthropic's conservative range (0.7–1.2 pp/yr) is correct, the U.S. economy is in the early stages of a productivity acceleration that would rival the full IT revolution of the 1990s compressed into a few years—and the standard policy toolkit would be undersized by an order of magnitude.</p>
+    <p>The stakes are high because the two answers point in very different directions. If Acemoglu is right, AI's economic disruption is real but gradual—comparable in pace to earlier waves of automation, manageable with existing workforce and education policy. If Anthropic's conservative range (0.7–1.2 pp/yr) is right, we are in the early stages of a productivity acceleration that would rival the entire IT revolution of the 1990s compressed into a few years. The standard policy toolkit would be undersized by an order of magnitude.</p>
 
-    <p>The most important thing the two estimates agree on: scope is not the binding constraint. AI already reaches deep into the economy's task portfolio. The open question—entirely—is what it does when it gets there. Settling that question requires the study that doesn't yet exist: a large-scale randomized experiment on current frontier models, across the full distribution of tasks workers actually bring to AI. Until then, the gap between these two estimates is itself the most informative data point we have.</p>
+    <p>The most important thing both estimates agree on: AI already reaches deep into the economy's task portfolio. The question is entirely what it does when it gets there. Settling that requires the experiment that doesn't yet exist—a large, randomized study on current frontier models, using the full range of tasks workers actually bring to AI today. Until then, the gap between these two estimates is itself the most informative number we have.</p>
 
   </div>
 
