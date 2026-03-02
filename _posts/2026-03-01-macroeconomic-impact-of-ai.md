@@ -121,7 +121,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 <section class="hero">
   <span class="topic-tag">AI Economics</span>
   <h1>The AI Productivity Gap: Why Exposure and Usage Estimates Diverge</h1>
-  <p class="subtitle">Exposure-based academic estimates and usage-based industry estimates can diverge dramatically—even with the same task-based framework and aggregation. Here’s why (using Acemoglu 2024 vs. Anthropic’s Economic Index as a motivating example).</p>
+  <p class="subtitle">Same theorem, same task taxonomy, estimates 30&times; apart. What Acemoglu (2024) and Anthropic’s Economic Index actually disagree on.</p>
   <p class="meta">Shisham Adhikari <span>&middot;</span> March 1, 2026</p>
 </section>
 
@@ -132,9 +132,9 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
     <div class="takeaways">
       <span class="kicker">Key Takeaways</span>
       <ul>
-        <li><strong>They agree on scope.</strong> Both find AI reaches roughly 18–20% of the wage-bill–weighted task portfolio. That number is not in dispute.</li>
-        <li><strong>They disagree on speed.</strong> Lab studies: ~1.2–1.6× faster. Real-world usage: ~9–12× faster for tasks people actually use AI on. That single input drives the ~30× gap.</li>
-        <li><strong>The policy stakes are asymmetric.</strong> If Acemoglu is right, AI is a modest automation episode. If Anthropic's conservative range holds (0.7–1.2 pp/yr), we are in the largest U.S. productivity surge since the late 1990s.</li>
+        <li><strong>Scope: agreed.</strong> Both find AI reaches roughly 18–20% of total wages. Not the source of the gap.</li>
+        <li><strong>Speedup: not agreed.</strong> Lab experiments find 1.2–1.6×. Real-world usage data shows 9–12×. That single difference drives the 30× gap in estimates.</li>
+        <li><strong>Policy stakes: high either way.</strong> At 0.06 pp/yr, AI is a gradual automation wave. At 0.7–1.2 pp/yr, it is the largest U.S. productivity surge since the 1990s.</li>
       </ul>
     </div>
   </div>
@@ -143,17 +143,17 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Motivation</h2>
 
-<p>What is AI's actual impact on the economy today? It's one of the most important questions in economics right now—and surprisingly hard to answer. Most estimates of AI's economic impact are built on theoretical exposure scores: models that predict which jobs AI <em>could</em> affect based on task descriptions. But exposure isn't the same as adoption, and the difference matters enormously for any serious estimate of economy-wide impact.</p>
+<p>What is AI's actual impact on the economy today? It is one of the most important questions in economics right now, and surprisingly hard to answer. Most estimates of AI's economic impact are built on theoretical exposure scores: models that predict which jobs AI <em>could</em> affect based on task descriptions. But exposure is not the same as adoption, and the difference matters enormously for any serious economy-wide estimate.</p>
 
-<p>That gap has produced two pioneering approaches from opposite ends of the research ecosystem. The academic approach is theory-first: start from tasks, map exposure using O*NET, and aggregate up to productivity. The industry approach is data-first: start from real usage—what people actually do with AI—and infer how much productivity is being unlocked in practice. They often share the same task-based scaffold, but they answer different questions, and they can yield very different headline numbers.</p>
+<p>That gap has produced two pioneering approaches from opposite ends of the research ecosystem. The academic approach is theory-first: start from tasks, map exposure using O*NET, and aggregate up to productivity. The industry approach is data-first: start from real usage (what people actually do with AI) and infer how much productivity is being unlocked in practice. They often share the same task-based scaffold, but they answer different questions and can yield very different headline numbers.</p>
 
-<p>This post puts these two approaches side by side, clarifies what each is measuring, and pinpoints where—and why—their estimates diverge.</p>
+<p>This post puts the two approaches side by side, clarifies what each is measuring, and shows precisely where their estimates diverge.</p>
 
     <h2>The Task-Based Framework</h2>
 
-<p><strong>Both methods rest on the same theoretical foundation.</strong> Start with a simple idea: the economy is a bundle of tasks—writing, coding, analyzing, building, advising—performed by people and, increasingly, machines. AI expands what machines can do, shifting some tasks away from human labor. The question is how that shift translates into economy-wide productivity.</p>
+<p><strong>Both methods rest on the same theoretical foundation.</strong> Start with a simple idea: the economy is a bundle of tasks (writing, coding, analyzing, building, advising) performed by people and, increasingly, machines. AI expands what machines can do, shifting some tasks away from human labor. The question is how that shift translates into economy-wide productivity.</p>
 
-<p>Two forces matter. First, tasks are complements, not standalone pieces. Speeding up one step doesn’t raise total output one-for-one if other steps remain bottlenecks—a lawyer who drafts twice as fast still needs client meetings, review cycles, and court dates. That interdependence puts a ceiling on what partial automation can do. Second, AI’s impact is uneven across tasks: it tends to help most with routine cognitive work (drafting, coding, classification) and least where physical presence, interpersonal judgment, or deep context are essential.</p>
+<p>Two forces matter. First, tasks are complements, not standalone pieces. Speeding up one step does not raise total output one-for-one if other steps remain bottlenecks. A lawyer who drafts twice as fast still needs client meetings, review cycles, and court dates. That interdependence puts a ceiling on what partial automation can do. Second, AI’s impact is uneven across tasks: it tends to help most with routine cognitive work (drafting, coding, classification) and least where physical presence, interpersonal judgment, or deep context are essential.</p>
 
     <h2>Hulten's Theorem</h2>
 
@@ -170,25 +170,25 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
   </span>
 </div>
 
-<p>Both the academic and industry approaches use this same theorem and the same task-based structure. The divergence comes from what gets plugged into “productivity gain per task,” and how it is aggregated. Acemoglu uses the linearized time-saved measure directly. Anthropic uses a more general form that aggregates log speedups across tasks—nearly identical when speedups are small, but much larger when speedups are big. At a 10&times; speedup, the linearized time-saved measure is 0.9, while log(10) &asymp; 2.3.</p>
+<p>Both approaches use this same theorem and the same task-based structure. The divergence comes from what gets plugged into “productivity gain per task” and how it is aggregated. Acemoglu uses the linearized time-saved measure directly. Anthropic uses a more general form that aggregates log speedups across tasks. The two are nearly identical when speedups are small, but diverge substantially when speedups are large. At a 10&times; speedup, the linearized measure gives 0.9 while the log form gives 2.3.</p>
 
     <h2>Where the Two Estimates Diverge</h2>
 
     <h3>How broadly does AI reach?</h3>
 
-    <p>Both studies find that AI-capable tasks account for roughly 18–20% of total wages paid across the economy. Acemoglu asks which tasks a current AI model can do in principle; Anthropic looks at which tasks workers actually use Claude for. They measure different things—potential versus actual reach—and land at nearly the same number. This is not where the two estimates diverge.</p>
+    <p>Both studies find that AI-capable tasks account for roughly 18–20% of total wages paid across the economy. Acemoglu asks which tasks a current AI model can do in principle; Anthropic looks at which tasks workers actually use Claude for. They measure different things (potential versus actual reach) and land at nearly the same number. Scope is not where the two estimates diverge.</p>
 
     <h3>How much does AI help when it's used?</h3>
 
-    <p>This is where the gap opens up—and it's large.</p>
+    <p>This is where the gap opens up, and it is large.</p>
 
-    <p>Acemoglu draws on two carefully run experiments from 2022–2023. In one, professional writers using GPT-4 finished tasks about 40% faster than those working without it. In another, call-center workers with an AI tool resolved 14% more issues per hour. Averaging those two studies, AI cuts task time by roughly 27%—or put differently, a task that took an hour now takes about 45 minutes.</p>
+    <p>Acemoglu draws on two carefully run experiments from 2022–2023. In one, professional writers using GPT-4 finished tasks about 40% faster than those working without it. In another, call-center workers with an AI tool resolved 14% more issues per hour. Averaging those two studies, AI cuts task time by roughly 27%, meaning a task that took an hour now takes about 45 minutes.</p>
 
-    <p>Anthropic's data tells a very different story. For each task that appears in Claude usage, the model estimates how long the task would take a professional without AI (in hours) and how long it actually took with Claude in the conversation (in minutes). Across thousands of tasks, Anthropic finds that what took an hour without AI takes around 6–7 minutes with it—speedups of 9–12×. That difference, multiplied across the same 18–20% slice of the wage bill, produces almost the entire gap in headline estimates.</p>
+    <p>Anthropic's data tells a very different story. For each task that appears in Claude usage, the model estimates how long the task would take a professional without AI (in hours) and how long it actually took with Claude in the conversation (in minutes). Across thousands of tasks, Anthropic finds speedups of 9–12×: what took an hour without AI takes around 6–7 minutes with it. That difference, multiplied across the same 18–20% slice of the wage bill, produces almost the entire gap in headline estimates.</p>
 
     <h3>Is cost-effectiveness assumed?</h3>
 
-    <p>Acemoglu applies a discount: even where AI can do a task, he estimates only about 1 in 4 such tasks are cheap enough—given current wages and AI subscription prices—for workers to actually use it. Anthropic doesn't apply this discount explicitly. The reasoning: if workers are already using Claude for a task, they've already decided it's worth it. When Anthropic's analysts do adjust—accounting for tasks where Claude fails, and for tasks that become bottlenecks when only some steps are automated—the estimate narrows from 1.8 to 0.7–1.2 pp/yr.</p>
+    <p>Acemoglu applies a discount: even where AI can do a task, only about 1 in 4 such tasks are cheap enough, given current wages and AI subscription prices, for workers to actually use it. Anthropic does not apply this discount explicitly. The reasoning: if workers are already using Claude for a task, they have already decided it is worth it. When Anthropic's analysts do adjust, accounting for tasks where Claude fails and for bottlenecks that arise when only some steps are automated, the estimate narrows from 1.8 to 0.7–1.2 pp/yr.</p>
 
     <h2>The Numbers Side by Side</h2>
 
@@ -243,17 +243,17 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Why Are the Speedups So Different?</h2>
 
-    <p>The honest answer is that we don't know—but three explanations are probably all partially right. The most straightforward is <strong>selection</strong>. People use Claude for tasks where they expect it to help. If workers naturally lean toward their AI's strengths, the tasks that show up in usage data will be the ones where AI performs best. Controlled experiments sidestep this by randomly assigning tasks, including the hard ones where AI underperforms.</p>
+    <p>The honest answer is that we do not know yet, but three explanations are probably all partially right. The most straightforward is <strong>selection</strong>. People use Claude for tasks where they expect it to help. If workers naturally lean toward their AI's strengths, the tasks that show up in usage data will be the ones where AI performs best. Controlled experiments sidestep this by randomly assigning tasks, including the hard ones where AI underperforms.</p>
 
-    <p>A second issue is <strong>self-reporting</strong>: Anthropic's speedup estimates come from asking Claude to judge how long tasks take with and without AI assistance. An AI system evaluating its own contribution is not an independent auditor. Third—and most hopeful—<strong>models may have genuinely improved</strong>. The experiments Acemoglu relies on used GPT-4 in 2022–2023. Anthropic's data reflects Claude in late 2025. If frontier AI capabilities have grown substantially in that time (and most benchmarks suggest they have), part of the speedup gap could be real. That would mean the true productivity impact sits somewhere between the two estimates—not at either extreme.</p>
+    <p>A second issue is <strong>self-reporting</strong>: Anthropic's speedup estimates come from asking Claude to judge how long tasks take with and without AI assistance. An AI system evaluating its own contribution is not an independent auditor. Third, and perhaps most hopeful: <strong>models may have genuinely improved</strong>. The experiments Acemoglu relies on used GPT-4 in 2022–2023. Anthropic's data reflects Claude in late 2025. If frontier AI capabilities have grown substantially in that time (and most benchmarks suggest they have), part of the speedup gap could be real. That would mean the true productivity impact sits somewhere between the two estimates, not at either extreme.</p>
 
     <h2>Conclusion</h2>
 
-    <p>Two careful analyses—same theorem, same task taxonomy—produce estimates that differ by roughly 30×. The theorem is not in dispute. The scope of AI's reach is not in dispute. The gap sits almost entirely in a single question: when AI handles a task, how much faster does it get done?</p>
+    <p>Two careful analyses, using the same theorem and the same task taxonomy, produce estimates that differ by roughly 30×. The theorem is not in dispute. The scope of AI's reach is not in dispute. The gap sits almost entirely in a single question: when AI handles a task, how much faster does it get done?</p>
 
-    <p>The stakes are high because the two answers point in very different directions. If Acemoglu is right, AI's economic disruption is real but gradual—comparable in pace to earlier waves of automation, manageable with existing workforce and education policy. If Anthropic's conservative range (0.7–1.2 pp/yr) is right, we are in the early stages of a productivity acceleration that would rival the entire IT revolution of the 1990s compressed into a few years. The standard policy toolkit would be undersized by an order of magnitude.</p>
+    <p>The stakes are high because the two answers point in very different directions. If Acemoglu is right, AI's economic disruption is real but gradual, comparable in pace to earlier waves of automation and manageable with existing workforce policy. If Anthropic's conservative range (0.7–1.2 pp/yr) is right, we are in the early stages of a productivity acceleration that would rival the entire IT revolution of the 1990s compressed into a few years. The standard policy toolkit would be undersized by an order of magnitude.</p>
 
-    <p>The most important thing both estimates agree on: AI already reaches deep into the economy's task portfolio. The question is entirely what it does when it gets there. Settling that requires the experiment that doesn't yet exist—a large, randomized study on current frontier models, using the full range of tasks workers actually bring to AI today. Until then, the gap between these two estimates is itself the most informative number we have.</p>
+    <p>The most important thing both estimates agree on: AI already reaches deep into the economy's task portfolio. The question is entirely what it does when it gets there. Settling that requires the experiment that does not yet exist: a large, randomized study on current frontier models, using the full range of tasks workers actually bring to AI today. Until then, the gap between these two estimates is itself the most informative number we have.</p>
 
   </div>
 
@@ -276,10 +276,10 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
   <p style="font-family: var(--mono); font-size: 0.82rem; padding: 0.5rem 1rem; background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; margin-bottom: 1rem;">
     speedup = (human-only time &times; 60) / human-with-AI time
   </p>
-  <p>A task taking 1 hour alone and 10 minutes with AI gives a speedup of 6&times;. This is confirmed by Anthropic directly in their report: "reducing a 1 hour task to 10 minutes would give a 6x speedup." Across the tasks in their January 2026 data with at least 200 observations, the mean speedup is in the range of 9&ndash;12&times; depending on task complexity. The threshold of 200 observations is chosen to replicate their earlier results and to avoid inflating the aggregate by including very rare tasks with noisy speedup estimates. Without the threshold, the implied productivity gain would be around 5 pp/yr—much higher than their headline figure.</p>
+  <p>A task taking 1 hour alone and 10 minutes with AI gives a speedup of 6&times;. This is confirmed by Anthropic directly in their report: "reducing a 1 hour task to 10 minutes would give a 6x speedup." Across the tasks in their January 2026 data with at least 200 observations, the mean speedup is in the range of 9&ndash;12&times; depending on task complexity. The threshold of 200 observations is chosen to replicate their earlier results and to avoid inflating the aggregate by including very rare tasks with noisy speedup estimates. Without the threshold, the implied productivity gain would be around 5 pp/yr, much higher than their headline figure.</p>
 
   <h3>C. The Sep 2025 AEI Usage-Concentration Exercise</h3>
-  <p>An earlier version of this analysis used the September 2025 AEI release, which reports <code>aei_usage_pct</code>: each O*NET task's share of total Claude interactions summing to 100%. This is a <em>concentration</em> measure, not an intensity measure—it records market share, not per-occupation task penetration. When aggregated to the occupation level and plugged into Hulten's s&#772;<sub>A</sub> slot, the result is a GDP-weighted share of about 0.25%, roughly 75 times smaller than the exposure index. The resulting TFP estimate of 0.04% reflects the structural mismatch between a concentration measure and an intensity slot, not any substantive finding about AI's economic impact. The January 2026 release resolves this by providing task-level speedup data that can be properly aggregated.</p>
+  <p>An earlier version of this analysis used the September 2025 AEI release, which reports <code>aei_usage_pct</code>: each O*NET task's share of total Claude interactions summing to 100%. This is a <em>concentration</em> measure, not an intensity measure: it records market share, not per-occupation task penetration. When aggregated to the occupation level and plugged into Hulten's s&#772;<sub>A</sub> slot, the result is a GDP-weighted share of about 0.25%, roughly 75 times smaller than the exposure index. The resulting TFP estimate of 0.04% reflects the structural mismatch between a concentration measure and an intensity slot, not any substantive finding about AI's economic impact. The January 2026 release resolves this by providing task-level speedup data that can be properly aggregated.</p>
 
   <h3>D. Data Sources</h3>
   <ul>
