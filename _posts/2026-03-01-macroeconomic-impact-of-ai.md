@@ -159,16 +159,16 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
 <p>Hulten’s (1978) theorem provides the translation from task-level improvements to an economy-wide productivity number: the aggregate effect is the efficiency gain, weighted by how important the affected activity is in total production (often proxied by the wage bill). In this setting, it can be written as:</p>
 
-<div class="formula">
+<div class="formula" style="padding: 0.55rem 1rem; margin-bottom: 0.65rem;">
   <span class="formula-line">TFP gain &asymp; task scope &times; feasibility &times; labor share &times; productivity gain per task</span>
   <span class="formula-line" style="color: var(--ink-muted); font-size: 0.8rem;">&asymp; s&#772;<sub>A</sub> &nbsp;&times;&nbsp; &phi; &nbsp;&times;&nbsp; s<sub>L</sub> &nbsp;&times;&nbsp; &pi;&#772;</span>
-  <span class="formula-comment">
-    <strong>task scope</strong> (s&#772;<sub>A</sub>)&thinsp;= wage-bill–weighted share of tasks AI can do &nbsp;|&nbsp;
-    <strong>feasibility</strong> (&phi;)&thinsp;= share of those tasks where AI is cost-effective in practice &nbsp;|&nbsp;
-    <strong>labor share</strong> (s<sub>L</sub>)&thinsp;= labor income share (&asymp;0.65) &nbsp;|&nbsp;
-    <strong>productivity gain per task</strong> (&pi;&#772;)&thinsp;= average fraction of task time saved
-  </span>
 </div>
+<ul style="font-family: var(--mono); font-size: 0.7rem; color: var(--ink-muted); list-style: none; padding: 0; margin: 0 0 2rem; line-height: 1.95; letter-spacing: 0.01em;">
+  <li><strong style="color: var(--ink); font-weight: 500;">task scope</strong> (s&#772;<sub>A</sub>) = wage-bill–weighted share of tasks AI can do</li>
+  <li><strong style="color: var(--ink); font-weight: 500;">feasibility</strong> (&phi;) = share of those tasks where AI is cost-effective in practice</li>
+  <li><strong style="color: var(--ink); font-weight: 500;">labor share</strong> (s<sub>L</sub>) = labor income share (&asymp;0.65)</li>
+  <li><strong style="color: var(--ink); font-weight: 500;">productivity gain per task</strong> (&pi;&#772;) = average fraction of task time saved</li>
+</ul>
 
 <p>Both approaches use this same theorem and the same task-based structure. The divergence comes from what gets plugged into “productivity gain per task” and how it is aggregated. Acemoglu uses the linearized time-saved measure directly. Anthropic uses a more general form that aggregates log speedups across tasks. The two are nearly identical when speedups are small, but diverge substantially when speedups are large. At a 10&times; speedup, the linearized measure gives 0.9 while the log form gives 2.3.</p>
 
