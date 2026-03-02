@@ -143,9 +143,9 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Motivation</h2>
 
-<p>Two serious research teams looked at the same question — how much is AI boosting the economy right now? — and got answers roughly 16 times apart. MIT economist Daron Acemoglu estimated AI will add about 0.06 percentage points to annual productivity growth over the next decade. Anthropic's Economic Index, using real-world usage data from Claude, put the number at 0.7 to 1.8 percentage points per year. Same accounting framework. Same task taxonomy. Very different conclusions.</p>
+<p>What is AI's actual impact on the economy today? It is one of the most important questions in economics right now, and surprisingly hard to answer. Two research teams looked at this same question and got answers roughly 16 times apart. MIT economist Daron Acemoglu estimated AI will add about 0.06 percentage points to annual productivity growth over the next decade. Anthropic's Economic Index, using real-world usage data from Claude, put the number at 0.7 to 1.8 percentage points per year. Same theoretical foundation. Same accounting framework. Very different conclusions.</p>
 
-<p>The gap is not a mistake. It reflects a genuine disagreement about what AI actually does when people use it. This post walks through how each estimate is built, what they agree on, and where — precisely — they part ways.</p>
+<p>The gap is not a mistake. It reflects a genuine disagreement about what AI actually does when people use it. This post walks through how each estimate is built, what they agree on, and where they part ways.</p>
 
     <h2>The Task-Based Framework</h2>
 
@@ -155,7 +155,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Hulten's Theorem</h2>
 
-<p>Both teams use the same accounting framework to turn task-level observations into an economy-wide number. The idea is simple: if AI makes a set of tasks faster, the gain in total factor productivity (TFP — how much output the economy gets from the same inputs of labor and capital) depends on two things: how large a slice of the economy those tasks represent, and how much faster AI makes them. This framework, known as Hulten’s theorem, can be written as:</p>
+<p>Both teams use the same accounting framework to turn task-level observations into an economy-wide number. The idea is simple: if AI makes a set of tasks faster, the gain in total factor productivity (TFP is the efficiency with which inputs are turned into output, and is often used as a proxy for economy-wide productivity) depends on two things: how large a slice of the economy those tasks represent, and how much faster AI makes them. This framework, known as Hulten’s theorem, can be written as:</p>
 
 <div class="formula" style="padding: 0.55rem 1rem; margin-bottom: 0.65rem;">
   <span class="formula-line">TFP gain &asymp; task scope &times; feasibility &times; labor share &times; productivity gain per task</span>
@@ -168,7 +168,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
   <li style="font-size: 1rem; font-weight: 300; color: var(--ink-mid); margin-bottom: 0.5rem;"><strong style="color: var(--ink); font-weight: 500;">productivity gain per task</strong> (&pi;&#772;): average fraction of task time saved</li>
 </ul>
 
-<p>Both teams plug their data into this same formula. The scope and labor share inputs are nearly identical across both studies. The entire 16× gap comes from one place: “productivity gain per task.” Acemoglu draws on controlled lab experiments; Anthropic draws on real usage data. That single input is where the two estimates diverge.</p>
+<p>Both approaches plug their data into this same formula. The scope and labor share inputs are nearly identical across both studies. The entire gap comes from one place: “productivity gain per task.” Acemoglu draws on controlled lab experiments; Anthropic draws on real usage data. That single input is where the two estimates diverge.</p>
 
     <h2>Where the Two Estimates Diverge</h2>
 
