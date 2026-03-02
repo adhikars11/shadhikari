@@ -121,7 +121,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 <section class="hero">
   <span class="topic-tag">AI Economics</span>
   <h1>The AI Productivity Gap: Why Exposure and Usage Estimates Diverge</h1>
-  <p class="subtitle">Same theorem, same task taxonomy, estimates 30&times; apart. What Acemoglu (2024) and Anthropic’s Economic Index actually disagree on.</p>
+  <p class="subtitle">Same theorem, same task taxonomy, estimates an order of magnitude apart. What Acemoglu (2024) and Anthropic’s Economic Index actually disagree on.</p>
   <p class="meta">Shisham Adhikari <span>&middot;</span> March 1, 2026</p>
 </section>
 
@@ -133,7 +133,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
       <span class="kicker">Key Takeaways</span>
       <ul>
         <li><strong>Scope: agreed.</strong> Both find AI reaches roughly 18–20% of total wages. Not the source of the gap.</li>
-        <li><strong>Speedup: not agreed.</strong> Lab experiments find 1.2–1.6×. Real-world usage data shows 9–12×. That single difference drives the 30× gap in estimates.</li>
+        <li><strong>Speedup: not agreed.</strong> Lab experiments find 1.2–1.6×. Real-world usage data shows 9–12×. That single difference, compounded through Hulten's formula, produces an order-of-magnitude gap in TFP estimates.</li>
         <li><strong>Policy stakes: high either way.</strong> At 0.06 pp/yr, AI is a gradual automation wave. At 0.7–1.2 pp/yr, it is the largest U.S. productivity surge since the 1990s.</li>
       </ul>
     </div>
@@ -249,7 +249,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Conclusion</h2>
 
-    <p>Two careful analyses, using the same theorem and the same task taxonomy, produce estimates that differ by roughly 30×. The theorem is not in dispute. The scope of AI's reach is not in dispute. The gap sits almost entirely in a single question: when AI handles a task, how much faster does it get done?</p>
+    <p>Two careful analyses, using the same theorem and the same task taxonomy, produce estimates that differ by an order of magnitude: 0.06 pp/yr versus 0.7–1.8 pp/yr, depending on which Anthropic figure you use. The theorem is not in dispute. The scope of AI's reach is not in dispute. The gap sits almost entirely in a single question: when AI handles a task, how much faster does it get done?</p>
 
     <p>The stakes are high because the two answers point in very different directions. If Acemoglu is right, AI's economic disruption is real but gradual, comparable in pace to earlier waves of automation and manageable with existing workforce policy. If Anthropic's conservative range (0.7–1.2 pp/yr) is right, we are in the early stages of a productivity acceleration that would rival the entire IT revolution of the 1990s compressed into a few years. The standard policy toolkit would be undersized by an order of magnitude.</p>
 
