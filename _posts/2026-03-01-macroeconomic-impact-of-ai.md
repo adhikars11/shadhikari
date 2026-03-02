@@ -163,11 +163,11 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
   <span class="formula-line">TFP gain &asymp; task scope &times; feasibility &times; labor share &times; productivity gain per task</span>
   <span class="formula-line" style="color: var(--ink-muted); font-size: 0.8rem;">&asymp; s&#772;<sub>A</sub> &nbsp;&times;&nbsp; &phi; &nbsp;&times;&nbsp; s<sub>L</sub> &nbsp;&times;&nbsp; &pi;&#772;</span>
 </div>
-<ul style="font-family: var(--mono); font-size: 0.7rem; color: var(--ink-muted); list-style: none; padding: 0; margin: 0 0 2rem; line-height: 1.95; letter-spacing: 0.01em;">
-  <li><strong style="color: var(--ink); font-weight: 500;">task scope</strong> (s&#772;<sub>A</sub>) = wage-bill–weighted share of tasks AI can do</li>
-  <li><strong style="color: var(--ink); font-weight: 500;">feasibility</strong> (&phi;) = share of those tasks where AI is cost-effective in practice</li>
-  <li><strong style="color: var(--ink); font-weight: 500;">labor share</strong> (s<sub>L</sub>) = labor income share (&asymp;0.65)</li>
-  <li><strong style="color: var(--ink); font-weight: 500;">productivity gain per task</strong> (&pi;&#772;) = average fraction of task time saved</li>
+<ul style="list-style: disc; padding-left: 1.4rem; margin: 0 0 2rem; line-height: 1.8;">
+  <li style="font-size: 1rem; font-weight: 300; color: var(--ink-mid); margin-bottom: 0.5rem;"><strong style="color: var(--ink); font-weight: 500;">task scope</strong> (s&#772;<sub>A</sub>): wage-bill–weighted share of tasks AI can do</li>
+  <li style="font-size: 1rem; font-weight: 300; color: var(--ink-mid); margin-bottom: 0.5rem;"><strong style="color: var(--ink); font-weight: 500;">feasibility</strong> (&phi;): share of those tasks where AI is cost-effective in practice</li>
+  <li style="font-size: 1rem; font-weight: 300; color: var(--ink-mid); margin-bottom: 0.5rem;"><strong style="color: var(--ink); font-weight: 500;">labor share</strong> (s<sub>L</sub>): labor income share (&asymp;0.65)</li>
+  <li style="font-size: 1rem; font-weight: 300; color: var(--ink-mid); margin-bottom: 0.5rem;"><strong style="color: var(--ink); font-weight: 500;">productivity gain per task</strong> (&pi;&#772;): average fraction of task time saved</li>
 </ul>
 
 <p>Both approaches use this same theorem and the same task-based structure. The divergence comes from what gets plugged into “productivity gain per task” and how it is aggregated. Acemoglu uses the linearized time-saved measure directly. Anthropic uses a more general form that aggregates log speedups across tasks. The two are nearly identical when speedups are small, but diverge substantially when speedups are large. At a 10&times; speedup, the linearized measure gives 0.9 while the log form gives 2.3.</p>
