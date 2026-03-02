@@ -133,7 +133,7 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
       <span class="kicker">Key Takeaways</span>
       <ul>
         <li><strong>Scope: agreed.</strong> Both find AI reaches roughly 18–20% of total wages. Not the source of the gap.</li>
-        <li><strong>Speedup: not agreed.</strong> Lab experiments find 1.2–1.6×. Real-world usage data shows 9–12×. That single difference, compounded through Hulten's formula, drives a roughly 16× gap in TFP estimates (Acemoglu: 0.06 pp/yr vs. Anthropic adjusted: 1.0–1.2 pp/yr).</li>
+        <li><strong>Speedup: not agreed.</strong> Lab experiments find 1.2–1.6×. Real-world usage data shows 9–12×. That single difference drives a huge gap in aggregate impacts.</li>
         <li><strong>Policy stakes: high either way.</strong> At 0.06 pp/yr, AI is a gradual automation wave. At 0.7–1.2 pp/yr, it is the largest U.S. productivity surge since the 1990s.</li>
       </ul>
     </div>
