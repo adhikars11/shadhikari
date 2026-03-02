@@ -143,52 +143,56 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Motivation</h2>
 
-    <p>How large is AI's impact on aggregate productivity? The answer depends critically on how you measure it. Two of the most careful attempts to date produce estimates that are separated by roughly an order of magnitude: Acemoglu (2024)—building on the task-based framework that partly underpins his 2024 Nobel Prize in Economics—implies a 10-year labor productivity gain of roughly 0.6%. Anthropic's January 2026 Economic Index (Appel, Massenkoff, McCrory et al., 2026) estimates 1.0–1.8&nbsp;percentage points of annual labor productivity growth over the next decade—ten to thirty times larger.</p>
+    <p>How large is AI's impact on aggregate productivity? The answer depends critically on how you measure it. Two of the most careful attempts to date produce estimates separated by roughly an order of magnitude: Acemoglu (2024)—building on the task-based framework that partly underpins his 2024 Nobel Prize in Economics—implies a 10-year labor productivity gain of roughly 0.6%. Anthropic's January 2026 Economic Index (Appel, Massenkoff, McCrory et al., 2026) estimates 1.0–1.8&nbsp;percentage points of annual labor productivity growth—ten to thirty times larger.</p>
 
-    <p>Both papers work from the same theoretical foundation: tasks, not occupations or industries, are the right unit of analysis; Hulten's theorem links task-level productivity gains to aggregate output; and the answer depends on how broadly AI reaches across the task portfolio and how much it speeds things up. And yet they reach very different conclusions. This post traces that divergence precisely.</p>
+    <p>What makes this divergence interesting is what the two approaches share. Both treat tasks, not occupations or industries, as the right unit of analysis. Both invoke Hulten's theorem to aggregate task-level gains into an economy-wide estimate. Both draw on the same underlying O*NET task taxonomy. And yet they reach very different conclusions. This post traces exactly where they part ways—parameter by parameter, inside the same accounting identity.</p>
 
-    <p>The exercise is not about picking a winner. Both approaches involve real choices and real tradeoffs. Laying out exactly where the inputs diverge is more useful than either headline figure alone.</p>
+    <h2>Hulten's Theorem: A Shared Accounting Identity</h2>
 
-    <h2>The Shared Foundation: Tasks and Hulten's Theorem</h2>
-
-    <p>The intuition behind both approaches is the same. Think of each job as a bundle of tasks—drafting, coding, advising, diagnosing—and of AI as a technology that can speed up some subset of those tasks. When a task is sped up, less labor is needed to produce the same output. Hulten's (1978) theorem says that if we know the productivity gain on a task and that task's share of total wages, we can aggregate those gains into an economy-wide productivity estimate.</p>
-
-    <p>In notation, applying Hulten across all AI-affected tasks gives a labor productivity gain of approximately:</p>
+    <p>Think of each job as a bundle of tasks—drafting, coding, advising, diagnosing, filing. AI changes the productivity of some subset of those tasks. Hulten (1978) provides a simple accounting identity for aggregating task-level gains into economy-wide output growth: if a task commands a wage-bill share &omega;<sub>t</sub> and becomes <em>speedup<sub>t</sub></em> times faster to complete, its contribution to aggregate labor productivity is &omega;<sub>t</sub>&nbsp;&times;&nbsp;log(speedup<sub>t</sub>). Sum across all AI-affected tasks and you have the aggregate gain.</p>
 
     <div class="formula">
-      <span class="formula-line"><span class="formula-label">Acemoglu (2024):</span>  &Delta;log Y &asymp; s&#772;<sub>A</sub> &times; &phi; &times; s<sub>L</sub> &times; &pi;&#772;</span>
+      <span class="formula-line"><span class="formula-label">Hulten (general):</span>  &Delta;log Y &asymp; &Sigma;<sub>t</sub> &omega;<sub>t</sub> &times; log( speedup<sub>t</sub> )</span>
+      <span class="formula-line" style="margin-top:0.55rem;"><span class="formula-label">Acemoglu (2024):</span>  &Delta;log Y &asymp; s&#772;<sub>A</sub> &times; &phi; &times; s<sub>L</sub> &times; &pi;&#772;</span>
       <span class="formula-line"><span class="formula-label">Anthropic (2026):</span>  &Delta;log Y &asymp; &Sigma;<sub>t</sub> ( task_wb_share<sub>t</sub> &times; log( speedup<sub>t</sub> ) )</span>
       <span class="formula-comment">
-        Both formulas aggregate task-level productivity shocks using wage-bill weights and translate them into aggregate output gains via Hulten's theorem.<br>
-        The formulas differ in structure and in how each ingredient is measured.
+        s&#772;<sub>A</sub>&thinsp;= wage-bill–weighted share of AI-capable tasks &nbsp;|&nbsp;
+        &phi;&thinsp;= fraction of capable tasks that are cost-effective &nbsp;|&nbsp;
+        s<sub>L</sub>&thinsp;= labor income share (&asymp;0.65) &nbsp;|&nbsp;
+        &pi;&#772;&thinsp;= average fraction of task time saved &nbsp;|&nbsp;
+        speedup<sub>t</sub>&thinsp;= human-alone time / human-with-AI time
       </span>
     </div>
 
-    <p>The first formula is Acemoglu's aggregation: task scope (s&#772;<sub>A</sub>, the wage-bill–weighted share of AI-exposed tasks) multiplied by a feasibility filter (&phi;), the labor share of income (s<sub>L</sub>), and an average productivity gain per task (&pi;&#772;). The second is Anthropic's: a direct sum of log speedups across tasks, weighted by each task's share of the economy's wage bill. When speedups are small, the two formulas approximate each other closely. When speedups are large—as Anthropic's data shows—they diverge.</p>
+    <p>Anthropic applies the general Hulten identity directly at the task level. Acemoglu uses a linearized version of it: replacing log(speedup) with &pi;&#772; (the fraction of task time saved), and separating out the feasibility filter (&phi;) and labor income share (s<sub>L</sub>) as explicit parameters. The linearization is accurate when speedups are modest—1.1&times; to 1.6&times;—but it substantially understates gains when speedups are large. At a 10&times; speedup, &pi;&nbsp;=&nbsp;1&nbsp;&minus;&nbsp;1/10&nbsp;=&nbsp;0.9, while log(10)&nbsp;&asymp;&nbsp;2.3. These are not the same number.</p>
 
-    <h2>Where Each Estimate Gets Its Inputs</h2>
+    <p>This formal difference matters less than what each team plugs into the identity. Both use the same theorem; they diverge on the inputs. Let us go through them one by one.</p>
 
-    <h3>1. Task scope — similar in both</h3>
+    <h2>Same Theorem, Different Inputs</h2>
 
-    <p>Acemoglu constructs his task scope measure from Eloundou, Manning, Mishkin, and Rock (2023): GPT-4 annotates each O*NET task as AI-capable or not, giving a binary exposure score for every occupation. Aggregated across the wage bill, this places roughly 18–19% of wage-bill–weighted labor in AI-susceptible tasks.</p>
+    <h3>Parameter 1: Task scope — surprisingly similar</h3>
 
-    <p>Anthropic's scope is defined by what Claude is actually used for: tasks appearing in their sample of Claude.ai conversations with at least 200 observations. Coverage is similarly concentrated—roughly 20% of wage-bill–weighted tasks show meaningful Claude usage. The two estimates of scope are, perhaps surprisingly, close.</p>
+    <p>In Acemoglu's formulation, task scope is s&#772;<sub>A</sub>: the wage-bill–weighted share of tasks AI is capable of performing. He constructs this from Eloundou, Manning, Mishkin, and Rock (2023): GPT-4 annotates each O*NET task as AI-capable or not, giving a binary exposure score for every occupation. Aggregated across the wage bill, roughly 18–19% of wage-bill–weighted labor falls in AI-capable tasks.</p>
 
-    <h3>2. Task-level productivity gain — where most of the gap lives</h3>
+    <p>Anthropic's scope is defined by what Claude is actually used for: tasks observed in their Claude.ai conversation sample with at least 200 observations. Coverage is similarly concentrated—about 18–20% of wage-bill–weighted tasks appear with meaningful Claude usage. Two independent methods, measuring different things (potential versus actual), land on nearly the same number.</p>
+
+    <p>Task scope is not the source of the disagreement.</p>
+
+    <h3>Parameter 2: Gain per task — where almost all of the gap lives</h3>
 
     <p>This is the sharpest divergence between the two approaches, and it deserves careful attention.</p>
 
-    <p><strong>Acemoglu's &pi;&#772; = 0.27</strong> comes from averaging two controlled experiments. Noy and Zhang (2023) randomized professional writers into GPT-4 access and found output produced roughly 40% faster (&pi;&nbsp;&asymp;&nbsp;0.37), implying a speedup of about 1.6&times;. Brynjolfsson, Li, and Raymond (2023) gave a customer-service AI tool to call-center workers and measured a 14% productivity gain (&pi;&nbsp;&asymp;&nbsp;0.14), implying a speedup of about 1.16&times;. The midpoint gives &pi;&#772;&nbsp;=&nbsp;0.27.</p>
+    <p><strong>Acemoglu's &pi;&#772;&nbsp;=&nbsp;0.27</strong> comes from averaging two controlled experiments. Noy and Zhang (2023) randomized professional writers into GPT-4 access and found output produced roughly 40% faster (&pi;&nbsp;&asymp;&nbsp;0.37, speedup &asymp;&nbsp;1.6&times;). Brynjolfsson, Li, and Raymond (2023) gave a customer-service AI tool to call-center workers and measured a 14% productivity gain (&pi;&nbsp;&asymp;&nbsp;0.14, speedup &asymp;&nbsp;1.16&times;). The midpoint gives &pi;&#772;&nbsp;=&nbsp;0.27. When plugged into Hulten's linearized identity, this acts as the average log(speedup) across all AI-affected tasks.</p>
 
-    <p><strong>Anthropic's speedups</strong> are measured differently—and are much larger. For each task observed in Claude usage, Claude estimates (i) how many hours a competent professional would need to complete it <em>without</em> AI, and (ii) how many minutes that same task took <em>with</em> AI assistance in the actual conversation. Speedup is then the human-alone time divided by the human-with-AI time. Anthropic reports an average speedup of 9&times; for tasks requiring a high-school level of expertise, and 12&times; for tasks requiring a college degree. Across the full task distribution, the implied mean task-level saving is around 90% of task time—far above Acemoglu's 27%.</p>
+    <p><strong>Anthropic's task-level speedups</strong> are measured differently—and are much larger. For each task observed in Claude usage, Claude estimates (i) how many <em>hours</em> a competent professional would need to complete it <em>without</em> AI (human-only time), and (ii) how many <em>minutes</em> that same task took <em>with</em> Claude assistance in the actual conversation (human-with-AI time). Speedup is then human-only time (in minutes) divided by human-with-AI time. Anthropic reports average speedups of 9&times; for tasks requiring a high-school level of expertise and 12&times; for tasks requiring a college degree. Across the full distribution, the implied mean task-level saving is around 90% of task time—and log(10)&nbsp;&asymp;&nbsp;2.3, versus Acemoglu's effective log(speedup) &asymp;&nbsp;0.31.</p>
 
-    <p>The magnitude of this difference—roughly 6–8&times; in the productivity gain per task—is the primary driver of the gap in aggregate estimates. Both approaches use Hulten's theorem to aggregate; both cover a similar share of the wage bill; but one inputs a 1.2–1.6&times; speedup and the other inputs a 9–12&times; speedup.</p>
+    <p>The magnitude of this difference—roughly six to eight times more gain per task—is the primary driver of the gap in aggregate estimates. Both approaches cover a similar slice of the wage bill. But one inputs log-speedups of 0.2–0.5 and the other inputs log-speedups of 2.2–2.5.</p>
 
-    <h3>3. Feasibility — a secondary but meaningful driver</h3>
+    <h3>Parameter 3: Feasibility — a meaningful secondary driver</h3>
 
-    <p>Acemoglu applies a feasibility filter &phi;&nbsp;=&nbsp;0.23, drawing on Svanberg et al. (2024): even where AI is capable, fewer than a quarter of those tasks are currently cost-effective at prevailing wages and AI prices. This acts as a 4&times; downscale on the exposure scope.</p>
+    <p>Acemoglu applies an explicit feasibility filter &phi;&nbsp;=&nbsp;0.23, drawing on Svanberg et al. (2024): even where AI is technically capable, only about a quarter of those tasks are currently cost-effective at prevailing wages and AI subscription prices. This acts as a 4&times; downscale on the scope estimate.</p>
 
-    <p>Anthropic applies no explicit feasibility filter. Their argument is implicit: if workers are actively using Claude for a task, the cost-effectiveness threshold has already been crossed. Usage is revealed preference. One can argue this is more accurate for estimating current impact, but it may not generalize to the full set of AI-capable tasks not yet adopted.</p>
+    <p>Anthropic applies no explicit feasibility filter. Their implicit argument: if workers are bringing tasks to Claude and completing them, the cost-effectiveness threshold has already been crossed. Usage is revealed preference. One can argue this is more accurate for estimating current, at-the-margin impact, but it does not generalize to the full set of AI-capable tasks not yet adopted. When Anthropic's analysts adjust for task-level success rates—multiplying each log-speedup by the fraction of attempts Claude actually completes successfully—the estimate falls from 1.8 to 1.0–1.2&nbsp;pp/yr. Accounting further for task complementarity (some tasks AI cannot do become bottlenecks) brings it to 0.7–0.9&nbsp;pp/yr.</p>
 
     <h2>The Resulting Estimates</h2>
 
@@ -281,13 +285,13 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Conclusion</h2>
 
-    <p>Two serious, task-based analyses of AI's aggregate productivity impact produce estimates that differ by roughly an order of magnitude: 0.06 pp/yr versus 1.0–1.8 pp/yr. Scope—the share of tasks AI reaches—is similar in both. The gap comes from two sources.</p>
+    <p>Two serious, task-based analyses of AI's aggregate productivity impact—both applying Hulten's theorem, both drawing on O*NET tasks, both run by researchers who have thought carefully about the measurement problem—produce estimates separated by roughly an order of magnitude. That is itself informative. The theorem is not what is in dispute. The data on scope is not what is in dispute. The gap sits almost entirely in one number: how fast AI makes tasks when it reaches them.</p>
 
-    <p>The larger source is the assumed productivity gain per task. Controlled experiments from 2022–2023 find AI produces 1.2–1.6&times; speedups on specific tasks. Anthropic's real-world usage data shows 9–12&times; speedups across the tasks Claude is actually used for. Whether this reflects genuine model improvement, favorable selection, or optimistic self-assessment—or some combination—is the most important empirical question in this literature right now. The answer will determine whether the right estimate is closer to Acemoglu's lower bound or Anthropic's upper bound.</p>
+    <p>Ask what you would have to believe for each estimate to be right. For Acemoglu's 0.06&nbsp;pp/yr to be correct, you would have to believe that the 9–12&times; speedups Anthropic observes in real usage are systematically biased upward—by selection (users bring only their best-fit tasks to Claude), by self-assessment (Claude overestimates how slow the human-alone baseline would be), or both—and that the 1.2–1.6&times; speedups from 2022–2023 controlled experiments are the right population parameter for the full set of AI-deployable tasks today. For Anthropic's 1.8&nbsp;pp/yr to be correct, you would have to believe the opposite: that controlled experiments dramatically undersample the tasks where AI excels, and that a frontier model in late 2025 is simply much faster, on a much wider range of tasks, than GPT-4 was in a call center in 2023.</p>
 
-    <p>The secondary source is the feasibility filter. Acemoglu argues that fewer than a quarter of AI-capable tasks are currently cost-effective; Anthropic's approach treats revealed usage as evidence of cost-effectiveness. When Anthropic applies a success-rate correction and accounts for task complementarity, their central estimate narrows to 0.7–1.2 pp/yr—a range that, while still well above Acemoglu's, is no longer implausibly large.</p>
+    <p>Both are defensible. But they carry very different policy implications. If Acemoglu is right, AI's disruption is real but measured—comparable in pace to earlier waves of automation, affecting perhaps 10–15% of workers substantially over a decade. The policy toolkit of retraining programs and workforce support was designed for disruption at that scale. If Anthropic's central estimate (even after adjusting for success rates and task complementarity: 0.7–1.2&nbsp;pp/yr) is right, we are in the middle of a productivity shock that rivals the full-span IT revolution compressed into a few years. The same policy toolkit would be undersized by an order of magnitude.</p>
 
-    <p>The most informative next step is not to argue about which model is right but to run the kind of randomized experiments, on current frontier models, that would let us distinguish these explanations directly. Until then, the honest answer is that AI's aggregate productivity impact over the next decade is genuinely uncertain—bounded below by something close to Acemoglu's estimate and bounded above by something close to Anthropic's unadjusted figure.</p>
+    <p>The most pointed observation from this comparison is not which estimate to believe—it is that the central unknown is not scope. AI already reaches deep into the economy's task portfolio: both teams find it covers roughly 18–20% of the wage-bill–weighted task distribution. The question is entirely about what it does when it gets there. The fact that two sophisticated teams, starting from the same theorem and the same task taxonomy, cannot agree on whether that number is 0.3 or 2.3 in log-speedup units is the strongest argument for the one study that does not yet exist: a large-scale randomized experiment, run on current frontier models, covering the full distribution of tasks that actually appear in real AI usage. That study would not resolve everything. But it would tell us whether the right unit of productivity gain is "modest and controlled" or "large and revealed"—and that single distinction is what separates the two worldviews on AI's economic future.</p>
 
   </div>
 
