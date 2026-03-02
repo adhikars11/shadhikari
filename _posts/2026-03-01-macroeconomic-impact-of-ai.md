@@ -247,9 +247,9 @@ permalink: /posts/2026/03/macroeconomic-impact-ai/
 
     <h2>Conclusion</h2>
 
-    <p>The theorem is not in dispute. The scope of AI's reach is not in dispute. The gap sits almost entirely in one question: when AI handles a task, how much faster does it actually get done? That single input determines whether AI is a gradual automation wave manageable with existing workforce policy, or the largest U.S. productivity surge since the 1990s compressed into a few years. Those two futures call for very different responses.</p>
+    <p>Any aggregate productivity estimate is only as good as the parameters feeding into it. Both studies use the same accounting identity and agree on most inputs. The divergence comes almost entirely from one: the productivity gain per task — how much faster AI makes something when it is actually used. Plug in lab-experiment speedups and you get a modest, gradual effect. Plug in real-usage speedups and the implied gain is an order of magnitude larger.</p>
 
-    <p>Settling the question requires an experiment that does not yet exist: a large, randomized study on current frontier models, across the full range of tasks workers actually bring to AI today. Until then, the gap between these two estimates is itself the most informative number we have. The next time you see an AI productivity headline, the right question to ask is not "what share of jobs does AI cover?" — both studies agree on that. Ask instead: "how fast does it actually make things when it's used?"</p>
+    <p>We do not yet have the experiment that would settle which is closer to the truth: a large, randomized study on current frontier models across the full range of tasks workers actually bring to AI. Until that evidence exists, the gap between these two estimates is itself the most informative number we have.</p>
 
   </div>
 
